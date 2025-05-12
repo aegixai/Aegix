@@ -34,6 +34,10 @@ app.register_blueprint(fileintel_api)
 app.register_blueprint(ai_insights_api)
 app.register_blueprint(coinmarket_bp)
 
+@app.route("/")
+def home():
+    return "✅ AEGIX API is running!"
+
 # 🧠 Flask Entry
 if __name__ == "__main__":
     print("🐍 Loaded News API Key:", os.getenv("NEWS_API_KEY", "🔒 (not set)"))
