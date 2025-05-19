@@ -1,9 +1,14 @@
 services:
   - type: web
-    name: aegix-api
+    name: aegix
     env: python
-    buildCommand: ""
-    startCommand: python aegix_project/api_server.py
-    runtime: python
-    region: oregon
     plan: free
+    buildCommand: ""
+    startCommand: "python main.py api"
+    envVars:
+      - key: TELEGRAM_API_ID
+        value: "25477801"
+      - key: TELEGRAM_API_HASH
+        value: "your_telegram_hash"
+      - key: NASDAQ_API_KEY
+        value: "your_nasdaq_api_key"
