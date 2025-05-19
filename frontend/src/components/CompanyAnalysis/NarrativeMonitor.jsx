@@ -1,108 +1,182 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import { Pie, Line } from "react-chartjs-2";
-import "chart.js/auto";
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+  LineElement,
+  PointElement,
+  CategoryScale,
+  LinearScale,
+} from "chart.js";
+import { Link } from "react-router-dom";
+
+ChartJS.register(
+  ArcElement,
+  Tooltip,
+  Legend,
+  LineElement,
+  PointElement,
+  CategoryScale,
+  LinearScale
+);
 
 const NarrativeMonitor = () => {
-  const navigate = useNavigate();
   const [narratives, setNarratives] = useState([]);
-  const [typeFilter, setTypeFilter] = useState("All");
-  const [sourceSearch, setSourceSearch] = useState("");
+  const [aiInsights, setAiInsights] = useState([]);
 
   useEffect(() => {
-    fetch("/data/company_analysis/mock_narratives.json")
-      .then(res => res.json())
-      .then(data => setNarratives(data));
+    const fetchNarratives = async () => {
+      try {
+        const res = await axios.get("/api/narratives");
+        const data = res.data.narratives || [];
+        setNarratives(data);
+
+        const aiRes = await axios.post("/api/ai/narrative-summary", {
+          narratives: data,
+        });
+        setAiInsights(aiRes.data.insights || []);
+      } catch (err) {
+        console.error("Failed to fetch narratives:", err);
+      }
+    };
+    fetchNarratives();
   }, []);
 
-  const filtered = narratives.filter(n =>
-    (typeFilter === "All" || n.type === typeFilter) &&
-    n.source.toLowerCase().includes(sourceSearch.toLowerCase())
-  );
-
-  const typeCounts = { Critical: 0, Neutral: 0, Positive: 0 };
-  filtered.forEach(n => typeCounts[n.type]++);
-
-  const pieData = {
-    labels: ["Critical", "Neutral", "Positive"],
-    datasets: [{
-      data: [typeCounts.Critical, typeCounts.Neutral, typeCounts.Positive],
-      backgroundColor: ["#f44336", "#ffeb3b", "#4caf50"],
-    }]
+  const countBySentiment = () => {
+    const counts = { critical: 0, neutral: 0, positive: 0 };
+    narratives.forEach((n) => {
+      const s = n.sentiment?.toLowerCase();
+      if (counts[s] !== undefined) counts[s]++;
+    });
+    return counts;
   };
 
-  const dates = [...new Set(filtered.map(n => n.date))].sort();
-  const countByTypeAndDate = (type, date) =>
-    filtered.filter(n => n.type === type && n.date === date).length;
-
-  const timelineData = {
-    labels: dates,
-    datasets: ["Critical", "Neutral", "Positive"].map((type, i) => ({
-      label: type,
-      data: dates.map(d => countByTypeAndDate(type, d)),
-      borderColor: ["#f44336", "#ffeb3b", "#4caf50"][i],
-      backgroundColor: ["#f44336", "#ffeb3b", "#4caf50"][i],
-    }))
+  const sentimentData = () => {
+    const { critical, neutral, positive } = countBySentiment();
+    return {
+      labels: ["Critical", "Neutral", "Positive"],
+      datasets: [
+        {
+          data: [critical, neutral, positive],
+          backgroundColor: ["#ef4444", "#facc15", "#22c55e"],
+        },
+      ],
+    };
   };
+
+  const timelineData = () => {
+    const timeline = {};
+    narratives.forEach((n) => {
+      const date = n.date;
+      const sentiment = n.sentiment?.toLowerCase();
+      if (!timeline[date]) {
+        timeline[date] = { critical: 0, neutral: 0, positive: 0 };
+      }
+      if (timeline[date][sentiment] !== undefined) {
+        timeline[date][sentiment]++;
+      }
+    });
+    const dates = Object.keys(timeline).sort();
+    return {
+      labels: dates,
+      datasets: [
+        {
+          label: "Critical",
+          data: dates.map((d) => timeline[d].critical),
+          borderColor: "#ef4444",
+        },
+        {
+          label: "Neutral",
+          data: dates.map((d) => timeline[d].neutral),
+          borderColor: "#facc15",
+        },
+        {
+          label: "Positive",
+          data: dates.map((d) => timeline[d].positive),
+          borderColor: "#22c55e",
+        },
+      ],
+    };
+  };
+
+  const topKeywordsBySentiment = () => {
+    const counts = {
+      critical: {},
+      neutral: {},
+      positive: {},
+    };
+    narratives.forEach((n) => {
+      const sentiment = n.sentiment?.toLowerCase();
+      const keywords = n.keywords || [];
+      keywords.forEach((k) => {
+        if (!counts[sentiment][k]) counts[sentiment][k] = 0;
+        counts[sentiment][k]++;
+      });
+    });
+
+    const top = {};
+    Object.keys(counts).forEach((s) => {
+      top[s] = Object.entries(counts[s])
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
+    });
+    return top;
+  };
+
+  const top = topKeywordsBySentiment();
 
   return (
-    <div className="text-white px-6 py-4">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold">🧠 Narrative Intelligence Monitor</h2>
-        <button
-          className="bg-slate-700 hover:bg-slate-600 text-white text-sm px-3 py-1 rounded"
-          onClick={() => navigate(-1)}
-        >
+    <div className="bg-black text-white min-h-screen p-6">
+      <div className="flex justify-between mb-6">
+        <h1 className="text-2xl font-bold">🧠 Narrative Intelligence Monitor</h1>
+        <Link to="/investigation-center" className="text-blue-400 hover:underline">
           ← Back
-        </button>
+        </Link>
       </div>
 
-      <div className="mb-6">
-        <h3 className="text-lg font-semibold mb-2">🍑 Narrative Type Breakdown</h3>
-        <div style={{ width: "300px", margin: "auto" }}>
-          <Pie data={pieData} options={{ responsive: true, maintainAspectRatio: false }} height={200} />
+      <div className="grid grid-cols-2 gap-6 mb-6">
+        <div className="bg-gray-900 p-4 rounded border border-gray-700">
+          <h2 className="text-lg font-semibold text-yellow-300 mb-2">🍑 Narrative Type Breakdown</h2>
+          <Pie data={sentimentData()} />
+        </div>
+        <div className="bg-gray-900 p-4 rounded border border-gray-700">
+          <h2 className="text-lg font-semibold text-cyan-300 mb-2">📈 Timeline Trend</h2>
+          <Line data={timelineData()} />
         </div>
       </div>
 
-      <div className="mb-6">
-        <h3 className="text-md font-semibold mb-2">📉 Timeline Trend</h3>
-        <div style={{ height: "240px" }}>
-          <Line data={timelineData} options={{ responsive: true, maintainAspectRatio: false }} />
+      <div className="bg-gray-900 p-4 rounded border border-gray-700 mb-6">
+        <h2 className="text-lg font-semibold text-green-400 mb-3">🧩 Top Keywords by Sentiment</h2>
+        <div className="grid grid-cols-3 gap-4">
+          {["positive", "neutral", "critical"].map((s) => (
+            <div key={s} className={`p-3 rounded border ${s === "positive" ? "border-green-500" : s === "neutral" ? "border-yellow-400" : "border-red-500"}`}>
+              <h3 className="font-semibold mb-2 capitalize text-lg text-white">{s}</h3>
+              {top[s].map(([word, count]) => (
+                <div key={word} className="flex justify-between text-sm text-gray-300">
+                  <span>{word}</span>
+                  <span>×{count}</span>
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
       </div>
 
-      <div className="mb-4">
-        <h3 className="text-md font-semibold mb-1">🤖 AI Insight</h3>
-        <p className="text-sm text-pink-400">🧠 Insight: Most critical narratives originate from Telegram and Reddit.</p>
-        <p className="text-sm text-yellow-400">⚠️ Monitor for early signals of disinformation trends.</p>
-        <p className="text-sm text-orange-300">📌 These may indicate influence operations or destabilization attempts.</p>
+      <div className="bg-gray-900 p-4 rounded border border-gray-700 mb-6">
+        <h2 className="text-lg font-semibold text-pink-400 mb-2">🤖 AI Narrative Insights</h2>
+        {aiInsights.length > 0 ? (
+          <ul className="list-disc ml-6 text-sm text-gray-200">
+            {aiInsights.map((r, i) => (
+              <li key={i}>{r}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-sm text-gray-400">Loading insights...</p>
+        )}
       </div>
-
-      <div className="flex gap-2 mb-4">
-        <select className="bg-slate-800 px-2 py-1" value={typeFilter} onChange={e => setTypeFilter(e.target.value)}>
-          <option value="All">All</option>
-          <option value="Critical">Critical</option>
-          <option value="Neutral">Neutral</option>
-          <option value="Positive">Positive</option>
-        </select>
-        <input
-          className="bg-slate-800 px-2 py-1 w-full"
-          placeholder="Search by source"
-          value={sourceSearch}
-          onChange={e => setSourceSearch(e.target.value)}
-        />
-      </div>
-
-      {filtered.map((n, i) => (
-        <Card key={i} className="mb-2 bg-slate-800">
-          <CardContent className="p-2">
-            <p className="text-md font-semibold">{n.source}</p>
-            <p className="text-sm">{n.text}</p>
-            <p className="text-xs text-slate-400">Type: {n.type} | Date: {n.date}</p>
-          </CardContent>
-        </Card>
-      ))}
     </div>
   );
 };

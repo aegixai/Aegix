@@ -1,14 +1,14 @@
 # 📁 main.py — AEGIX Launcher (Final version using full module paths)
 
-from flask import Flask
-import os
-print("📂 DIR:", os.listdir("aegix_project/core"))
-import sys
+from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
+import os, sys, json
 import yfinance as yf
 import quandl
 from dotenv import load_dotenv
-from fpdf import FPDF  
-import json
+from fpdf import FPDF
+
+print("📂 DIR:", os.listdir("aegix_project/core"))
 
 # 🔐 Load .env variables
 load_dotenv()
@@ -30,15 +30,19 @@ from aegix_project.core.api.default_query_api import default_query_api
 from aegix_project.core.api.search_query_api import search_query_api
 from aegix_project.core.api.broadcast_routes import broadcast_api
 from aegix_project.core.api.fileintel_routes import fileintel_api
+from aegix_project.core.api.group_compare_api import group_compare_api
 
-from aegix_project.core.alert_engine.alert_scheduler import run_alert_engine
-from aegix_project.core.alert_engine.alert_storage import get_all_alerts
-
-# ✅ NEW: AI Insights API
+# ✅ AI + MEDIA
 from aegix_project.api.ai_insights_api import ai_insights_api
+from aegix_project.core.api.media_auth_ai import media_auth_api
+from aegix_project.core.api.media_image_classifier_api import media_image_classifier_api
+from aegix_project.core.api.intel_report_api import intel_report_api
 
 # 🧠 Flask App Setup
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:5173"])
+
+# 📦 Register Blueprints
 app.register_blueprint(telegram_bp)
 app.register_blueprint(health_bp)
 app.register_blueprint(default_query_api)
@@ -46,6 +50,14 @@ app.register_blueprint(search_query_api)
 app.register_blueprint(broadcast_api)
 app.register_blueprint(fileintel_api)
 app.register_blueprint(ai_insights_api)
+app.register_blueprint(media_auth_api)
+app.register_blueprint(media_image_classifier_api)
+app.register_blueprint(intel_report_api)
+
+# 📁 Serve uploaded images
+@app.route("/uploads/<filename>")
+def uploaded_image(filename):
+    return send_from_directory("uploads", filename)
 
 # 🚀 Flask API Server
 def run_flask_app():
@@ -55,29 +67,22 @@ def run_flask_app():
 # 🔄 Telegram Monitoring to Alerts
 def run_pipeline():
     print("🔍 Starting AEGIX OSINT pipeline...")
-
     raw_data = collect_telegram_data()
     print(f"📥 Collected {len(raw_data)} raw items")
-
     clean = clean_data(raw_data)
     print(f"🧼 Cleaned data: {len(clean)} items")
-
     risks = assess_risks(clean)
     print(f"⚠ Risk scores calculated: {len(risks)} items")
-
     alerts = generate_alerts(risks)
     print(f"🚨 Alerts triggered: {len(alerts)}")
-
     export_report(alerts)
     print("📤 Report exported successfully")
 
 # 📍 Distance Report Exporter
 def run_export():
     print("📤 Generating user distance report...")
-
     center_location = (32.0853, 34.7818)  # תל אביב
     users = []
-
     try:
         with open("telegram_groups.json", "r", encoding="utf-8") as f:
             groups_data = json.load(f)
@@ -87,7 +92,7 @@ def run_export():
                     for user_id in flagged_users:
                         users.append({
                             "id": user_id,
-                            "location": (32.08, 34.78)  # ⛔ דמה
+                            "location": (32.08, 34.78)
                         })
         print(f"✅ Loaded {len(users)} flagged users from JSON")
     except Exception as e:
@@ -102,6 +107,9 @@ def run_export():
         print("⚠️ No users to export.")
 
 # 📡 Alert Engine Trigger
+from aegix_project.core.alert_engine.alert_scheduler import run_alert_engine
+from aegix_project.core.alert_engine.alert_storage import get_all_alerts
+
 def run_alert_system():
     print("🧠 Running Automated Alert Engine...")
     run_alert_engine()
@@ -127,7 +135,6 @@ def run_nasdaq_demo():
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         mode = sys.argv[1]
-
         if mode == "api":
             run_flask_app()
         elif mode == "pipeline":

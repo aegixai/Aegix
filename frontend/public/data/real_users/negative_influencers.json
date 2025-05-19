@@ -1,0 +1,32 @@
+[
+  {
+    "username": "cryptoshark77",
+    "followers": 8542,
+    "risk_score": 91,
+    "top_topics": ["rugpull", "bsc scam", "airdrop fraud"]
+  },
+  {
+    "username": "darkbot99",
+    "followers": 4332,
+    "risk_score": 88,
+    "top_topics": ["pump", "memecoin", "token launch"]
+  },
+  {
+    "username": "scamalertX",
+    "followers": 9201,
+    "risk_score": 86,
+    "top_topics": ["wallet breach", "phishing", "blacklist"]
+  },
+  {
+    "username": "fraudminer23",
+    "followers": 3120,
+    "risk_score": 84,
+    "top_topics": ["fake presale", "exit scam", "token exploit"]
+  },
+  {
+    "username": "badcoin_ceo",
+    "followers": 7750,
+    "risk_score": 89,
+    "top_topics": ["contract vulnerability", "uniswap drain", "rugpull"]
+  }
+]

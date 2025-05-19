@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "cryptoshark77",
+      "platform": "Telegram",
+      "negative_score": 91,
+      "risk_score": 87,
+      "mentions": 128
+    },
+    {
+      "username": "darkbot99",
+      "platform": "Twitter",
+      "negative_score": 84,
+      "risk_score": 79,
+      "mentions": 92
+    },
+    {
+      "username": "scamalertX",
+      "platform": "Discord",
+      "negative_score": 78,
+      "risk_score": 72,
+      "mentions": 105
+    }
+  ]
+}

@@ -1,48 +1,58 @@
-import React from "react";
+// קובץ: GroupNetworkGraph.jsx
+import React, { useRef } from "react";
 import ForceGraph2D from "react-force-graph-2d";
-import groupData from "@/data/group_mock_data.json";
-import { FaGlobe } from "react-icons/fa";
-
-const platformColors = {
-  "Telegram": "#00BFFF",
-  "Dark Web": "#d60f73",
-  "X": "#FF8C00",
-  "Facebook": "#3b5998"
-};
-
-const platformDescriptions = {
-  "Anti-Fraud Analysts": "קבוצה לאיתור הונאות ברשת החברתית",
-  "Dark Web Market Watchers": "קבוצה למעקב אחרי שווקים חשאיים",
-  "Political Trends Monitors": "קבוצה שמנטרת תנועות פוליטיות",
-  "Financial Crime Hunters": "קבוצה לאיתור פעילות פיננסית חשודה",
-  "Disinformation Busters": "קבוצה למאבק בפייק ניוז"
-};
+import { useNavigate } from "react-router-dom";
+import { Card, CardContent } from "@/components/ui/card";
 
 const GroupNetworkGraph = () => {
+  const fgRef = useRef();
+  const navigate = useNavigate();
+
+  const data = {
+    nodes: [
+      { id: "cryptoshark77", group: 1 },
+      { id: "btc_explorer88", group: 1 },
+      { id: "tokenhunter", group: 1 },
+      { id: "alert_bot", group: 1 }
+    ],
+    links: [
+      { source: "cryptoshark77", target: "btc_explorer88" },
+      { source: "cryptoshark77", target: "tokenhunter" },
+      { source: "cryptoshark77", target: "alert_bot" }
+    ]
+  };
+
   return (
-    <div className="p-6 min-h-screen bg-black text-white space-y-8">
-      <h1 className="text-3xl font-bold mb-6 flex items-center">
-        <FaGlobe className="mr-2" /> Group Network Graph
-      </h1>
-      <ForceGraph2D
-        graphData={groupData}
-        nodeLabel={node => `${node.id}\n${platformDescriptions[node.id]}`}
-        nodeAutoColorBy="platform"
-        nodeCanvasObject={(node, ctx, globalScale) => {
-          const label = node.id;
-          const fontSize = 12 / globalScale;
-          ctx.font = `${fontSize}px Sans-Serif`;
-          ctx.fillStyle = platformColors[node.platform] || "white";
-          ctx.beginPath();
-          ctx.arc(node.x, node.y, 10, 0, 2 * Math.PI, false);
-          ctx.fill();
-          ctx.textAlign = "center";
-          ctx.textBaseline = "top";
-          ctx.fillStyle = "white";
-          ctx.fillText(label, node.x, node.y + 12);
-        }}
-        backgroundColor="#000000"
-      />
+    <div className="bg-black text-white p-6 min-h-screen">
+      <Card className="bg-gray-900 border border-gray-700 mb-6">
+        <CardContent className="p-6 space-y-4">
+          <h2 className="text-xl font-semibold">🔗 Group Network Graph</h2>
+          <p className="text-sm text-gray-400">Visualizing key members and connections.</p>
+
+          <button
+            className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded text-sm mt-4"
+            onClick={() => navigate("/user-profile/cryptoshark77")}
+          >
+            👤 Analyze Member Profile
+          </button>
+
+          <div className="mt-6 border border-gray-600">
+            <ForceGraph2D
+              ref={fgRef}
+              graphData={data}
+              nodeLabel="id"
+              nodeAutoColorBy="group"
+              width={800}
+              height={500}
+              onNodeClick={(node) => {
+                if (node.id) {
+                  navigate(`/user-profile/${node.id}`);
+                }
+              }}
+            />
+          </div>
+        </CardContent>
+      </Card>
     </div>
   );
 };

@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2025-05-08",
+    "sentiment": "critical",
+    "text": "Protest against government policy gains momentum.",
+    "keywords": ["protest", "policy"]
+  },
+  {
+    "date": "2025-05-09",
+    "sentiment": "neutral",
+    "text": "Parliament meets to discuss education reform.",
+    "keywords": ["parliament", "education"]
+  },
+  {
+    "date": "2025-05-10",
+    "sentiment": "positive",
+    "text": "New healthcare initiative receives public support.",
+    "keywords": ["healthcare", "support"]
+  }
+]

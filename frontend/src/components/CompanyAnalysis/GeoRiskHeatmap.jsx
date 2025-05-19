@@ -18,8 +18,8 @@ const GeoRiskHeatmap = () => {
   };
 
   const getRadius = (risk) => {
-    if (risk === "High") return 30000;
-    if (risk === "Medium") return 20000;
+    if (risk === "High") return 50000;
+    if (risk === "Medium") return 40000;
     return 10000;
   };
 

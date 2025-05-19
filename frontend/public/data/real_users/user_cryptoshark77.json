@@ -1,0 +1,66 @@
+{
+  "id": "cryptoshark77",
+  "name": "CryptoShark",
+  "username": "cryptoshark77",
+  "email": "cryptoshark@example.com",
+  "phone": "+65-1234-5678",
+  "location": "Singapore",
+  "joined": "2021-08-01",
+  "profile_image": "/data/real_users/cryptoshark77.png",
+  "followers": 8542,
+  "following": 210,
+  "engagement_score": 87,
+  "risk_score": 87,
+  "risk_level": "High",
+  "risk_reason": "High frequency of flagged scam-related content and association with suspicious wallets.",
+  "linked_platforms": [
+    "Twitter",
+    "Telegram",
+    "Discord"
+  ],
+  "connections": [
+    "btc_explorer88",
+    "tokenhunter",
+    "alert_bot"
+  ],
+  "geo_activity": [
+    "Singapore",
+    "Hong Kong",
+    "Seoul"
+  ],
+  "wallet_tags": [
+    "0x123...abc (linked to mixer)",
+    "0x987...def (suspicious airdrop)"
+  ],
+  "top_topics": [
+    "rugpull",
+    "memecoin",
+    "token launch",
+    "bsc scam",
+    "airdrop fraud"
+  ],
+  "weekly_activity": [
+    2,
+    5,
+    8,
+    6,
+    9,
+    4,
+    7
+  ],
+  "last_active": "2025-05-16T14:42:00Z",
+  "externalLinks": [
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/cryptoshark77"
+    },
+    {
+      "label": "Telegram",
+      "url": "https://t.me/cryptoshark77"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.com/users/cryptoshark77"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import alerts from "/public/data/all_sectors_alerts.json";
+import alerts from "@/data/all_sectors_alerts.json";
 
 const LiveAlertsPanel = () => {
   return (

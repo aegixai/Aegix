@@ -102,3 +102,525 @@
 2025-05-11 20:15:54,264 - 127.0.0.1 - - [11/May/2025 20:15:54] "POST /api/ai/insights HTTP/1.1" 200 -
 2025-05-11 20:15:54,273 - 127.0.0.1 - - [11/May/2025 20:15:54] "POST /api/ai/insights HTTP/1.1" 200 -
 2025-05-11 20:15:58,635 - 127.0.0.1 - - [11/May/2025 20:15:58] "POST /api/ai/insights HTTP/1.1" 200 -
+2025-05-13 18:19:12,653 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.7:5000
+2025-05-13 18:19:12,654 - [33mPress CTRL+C to quit[0m
+2025-05-13 18:19:12,654 -  * Restarting with stat
+2025-05-13 18:19:14,050 -  * Debugger is active!
+2025-05-13 18:19:14,051 -  * Debugger PIN: 617-682-219
+2025-05-15 16:57:01,824 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 16:57:01,825 - [33mPress CTRL+C to quit[0m
+2025-05-15 16:57:01,825 -  * Restarting with stat
+2025-05-15 16:57:03,246 -  * Debugger is active!
+2025-05-15 16:57:03,247 -  * Debugger PIN: 617-682-219
+2025-05-15 17:11:06,843 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-15 17:11:07,042 -  * Restarting with stat
+2025-05-15 17:11:46,222 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 17:11:46,222 - [33mPress CTRL+C to quit[0m
+2025-05-15 17:11:46,222 -  * Restarting with stat
+2025-05-15 17:11:47,608 -  * Debugger is active!
+2025-05-15 17:11:47,609 -  * Debugger PIN: 617-682-219
+2025-05-15 17:12:06,931 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-15 17:12:07,120 -  * Restarting with stat
+2025-05-15 17:12:08,596 -  * Debugger is active!
+2025-05-15 17:12:08,597 -  * Debugger PIN: 617-682-219
+2025-05-15 17:12:20,492 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 17:12:20,492 - [33mPress CTRL+C to quit[0m
+2025-05-15 17:12:20,493 -  * Restarting with stat
+2025-05-15 17:12:21,874 -  * Debugger is active!
+2025-05-15 17:12:21,875 -  * Debugger PIN: 617-682-219
+2025-05-15 17:14:30,165 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-15 17:14:30,416 -  * Restarting with stat
+2025-05-15 18:36:49,320 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 18:36:49,320 - [33mPress CTRL+C to quit[0m
+2025-05-15 18:36:49,320 -  * Restarting with stat
+2025-05-15 18:36:50,995 -  * Debugger is active!
+2025-05-15 18:36:50,996 -  * Debugger PIN: 617-682-219
+2025-05-15 18:41:53,078 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\narrative_data_api.py', reloading
+2025-05-15 18:41:53,311 -  * Restarting with stat
+2025-05-15 18:41:55,106 -  * Debugger is active!
+2025-05-15 18:41:55,108 -  * Debugger PIN: 617-682-219
+2025-05-15 18:42:34,838 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-15 18:42:35,065 -  * Restarting with stat
+2025-05-15 18:42:36,844 -  * Debugger is active!
+2025-05-15 18:42:36,845 -  * Debugger PIN: 617-682-219
+2025-05-15 18:42:54,872 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 18:42:54,872 - [33mPress CTRL+C to quit[0m
+2025-05-15 18:42:54,872 -  * Restarting with stat
+2025-05-15 18:42:56,591 -  * Debugger is active!
+2025-05-15 18:42:56,593 -  * Debugger PIN: 617-682-219
+2025-05-15 18:43:03,612 - 127.0.0.1 - - [15/May/2025 18:43:03] "[35m[1mGET /api/narratives HTTP/1.1[0m" 500 -
+2025-05-15 18:43:03,628 - 127.0.0.1 - - [15/May/2025 18:43:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 18:43:08,269 - 127.0.0.1 - - [15/May/2025 18:43:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-15 18:50:57,210 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 18:50:57,210 - [33mPress CTRL+C to quit[0m
+2025-05-15 18:50:57,211 -  * Restarting with stat
+2025-05-15 18:50:58,944 -  * Debugger is active!
+2025-05-15 18:50:58,945 -  * Debugger PIN: 617-682-219
+2025-05-15 18:51:27,008 - 127.0.0.1 - - [15/May/2025 18:51:27] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 18:51:27,019 - 127.0.0.1 - - [15/May/2025 18:51:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-15 18:59:27,452 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 18:59:27,452 - [33mPress CTRL+C to quit[0m
+2025-05-15 18:59:27,453 -  * Restarting with stat
+2025-05-15 18:59:29,236 -  * Debugger is active!
+2025-05-15 18:59:29,238 -  * Debugger PIN: 617-682-219
+2025-05-15 19:01:34,947 - 127.0.0.1 - - [15/May/2025 19:01:34] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:01:35,011 - 127.0.0.1 - - [15/May/2025 19:01:35] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:01:35,983 - 127.0.0.1 - - [15/May/2025 19:01:35] "POST /api/save-news HTTP/1.1" 200 -
+2025-05-15 19:01:35,988 - 127.0.0.1 - - [15/May/2025 19:01:35] "[35m[1mPOST /api/ai/summary HTTP/1.1[0m" 500 -
+2025-05-15 19:01:50,485 - 127.0.0.1 - - [15/May/2025 19:01:50] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:02:00,131 - 127.0.0.1 - - [15/May/2025 19:02:00] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:06:44,948 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\narrative_ai_api.py', reloading
+2025-05-15 19:06:45,188 -  * Restarting with stat
+2025-05-15 19:06:46,979 -  * Debugger is active!
+2025-05-15 19:06:46,981 -  * Debugger PIN: 617-682-219
+2025-05-15 19:07:10,416 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-15 19:07:10,646 -  * Restarting with stat
+2025-05-15 19:07:12,437 -  * Debugger is active!
+2025-05-15 19:07:12,438 -  * Debugger PIN: 617-682-219
+2025-05-15 19:07:23,708 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 19:07:23,708 - [33mPress CTRL+C to quit[0m
+2025-05-15 19:07:23,708 -  * Restarting with stat
+2025-05-15 19:07:25,437 -  * Debugger is active!
+2025-05-15 19:07:25,438 -  * Debugger PIN: 617-682-219
+2025-05-15 19:07:43,941 - 127.0.0.1 - - [15/May/2025 19:07:43] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:11:39,977 - 127.0.0.1 - - [15/May/2025 19:11:39] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:11:39,982 - 127.0.0.1 - - [15/May/2025 19:11:39] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-15 19:12:02,733 - 127.0.0.1 - - [15/May/2025 19:12:02] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:12:02,737 - 127.0.0.1 - - [15/May/2025 19:12:02] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-15 19:12:06,515 - 127.0.0.1 - - [15/May/2025 19:12:06] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:12:06,520 - 127.0.0.1 - - [15/May/2025 19:12:06] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-15 19:18:16,699 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\narrative_ai_api.py', reloading
+2025-05-15 19:18:16,941 -  * Restarting with stat
+2025-05-15 19:18:18,721 -  * Debugger is active!
+2025-05-15 19:18:18,722 -  * Debugger PIN: 617-682-219
+2025-05-15 19:18:30,815 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 19:18:30,815 - [33mPress CTRL+C to quit[0m
+2025-05-15 19:18:30,815 -  * Restarting with stat
+2025-05-15 19:18:32,490 -  * Debugger is active!
+2025-05-15 19:18:32,491 -  * Debugger PIN: 617-682-219
+2025-05-15 19:18:41,700 - 127.0.0.1 - - [15/May/2025 19:18:41] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:18:41,706 - 127.0.0.1 - - [15/May/2025 19:18:41] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-15 19:19:13,896 - 127.0.0.1 - - [15/May/2025 19:19:13] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:19:13,905 - 127.0.0.1 - - [15/May/2025 19:19:13] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-15 19:21:58,649 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\narrative_ai_api.py', reloading
+2025-05-15 19:21:58,886 -  * Restarting with stat
+2025-05-15 19:22:00,976 -  * Debugger is active!
+2025-05-15 19:22:00,977 -  * Debugger PIN: 617-682-219
+2025-05-15 19:22:15,203 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 19:22:15,203 - [33mPress CTRL+C to quit[0m
+2025-05-15 19:22:15,204 -  * Restarting with stat
+2025-05-15 19:22:17,217 -  * Debugger is active!
+2025-05-15 19:22:17,218 -  * Debugger PIN: 617-682-219
+2025-05-15 19:22:20,790 - 127.0.0.1 - - [15/May/2025 19:22:20] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-15 19:22:22,507 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-15 19:22:22,507 - Retrying request to /chat/completions in 0.440588 seconds
+2025-05-15 19:22:23,185 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-15 19:22:23,186 - Retrying request to /chat/completions in 0.824664 seconds
+2025-05-15 19:22:24,245 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-15 19:22:24,250 - 127.0.0.1 - - [15/May/2025 19:22:24] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-15 20:08:25,131 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\twitter_search_api.py', reloading
+2025-05-15 20:08:25,408 -  * Restarting with stat
+2025-05-15 20:08:27,600 -  * Debugger is active!
+2025-05-15 20:08:27,601 -  * Debugger PIN: 617-682-219
+2025-05-15 20:08:47,948 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-15 20:08:48,205 -  * Restarting with stat
+2025-05-15 20:08:50,237 -  * Debugger is active!
+2025-05-15 20:08:50,238 -  * Debugger PIN: 617-682-219
+2025-05-15 20:09:02,159 - 127.0.0.1 - - [15/May/2025 20:09:02] "GET /api/twitter/search?q=blackrock HTTP/1.1" 200 -
+2025-05-15 20:17:12,342 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\twitter_search_api.py', reloading
+2025-05-15 20:17:12,667 -  * Restarting with stat
+2025-05-15 20:17:14,673 -  * Debugger is active!
+2025-05-15 20:17:14,674 -  * Debugger PIN: 617-682-219
+2025-05-15 20:17:27,915 - 127.0.0.1 - - [15/May/2025 20:17:27] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:17:56,240 - 127.0.0.1 - - [15/May/2025 20:17:56] "[35m[1mGET /api/twitter/search?q=crypto%20 HTTP/1.1[0m" 500 -
+2025-05-15 20:19:39,583 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 20:19:39,583 - [33mPress CTRL+C to quit[0m
+2025-05-15 20:19:39,585 -  * Restarting with stat
+2025-05-15 20:19:41,709 -  * Debugger is active!
+2025-05-15 20:19:41,710 -  * Debugger PIN: 617-682-219
+2025-05-15 20:19:44,014 - 127.0.0.1 - - [15/May/2025 20:19:44] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:22:00,248 - 127.0.0.1 - - [15/May/2025 20:22:00] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:22:14,906 - 127.0.0.1 - - [15/May/2025 20:22:14] "[35m[1mGET /api/twitter/search?q=TRUMP HTTP/1.1[0m" 500 -
+2025-05-15 20:26:04,250 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\twitter_search_api.py', reloading
+2025-05-15 20:26:04,514 -  * Restarting with stat
+2025-05-15 20:26:06,544 -  * Debugger is active!
+2025-05-15 20:26:06,545 -  * Debugger PIN: 617-682-219
+2025-05-15 20:26:25,694 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 20:26:25,694 - [33mPress CTRL+C to quit[0m
+2025-05-15 20:26:25,694 -  * Restarting with stat
+2025-05-15 20:26:27,642 -  * Debugger is active!
+2025-05-15 20:26:27,643 -  * Debugger PIN: 617-682-219
+2025-05-15 20:26:39,323 - 127.0.0.1 - - [15/May/2025 20:26:39] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-15 20:28:43,467 - 127.0.0.1 - - [15/May/2025 20:28:43] "[35m[1mGET /api/twitter/search?q=ISRAEL HTTP/1.1[0m" 500 -
+2025-05-15 20:32:26,203 - 127.0.0.1 - - [15/May/2025 20:32:26] "[35m[1mGET /api/twitter/search?q=ISRAEL HTTP/1.1[0m" 500 -
+2025-05-15 20:32:32,831 - 127.0.0.1 - - [15/May/2025 20:32:32] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:32:49,186 - 127.0.0.1 - - [15/May/2025 20:32:49] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:32:55,966 - 127.0.0.1 - - [15/May/2025 20:32:55] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:33:00,257 - 127.0.0.1 - - [15/May/2025 20:33:00] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:33:29,169 - 127.0.0.1 - - [15/May/2025 20:33:29] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:33:33,896 - 127.0.0.1 - - [15/May/2025 20:33:33] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:34:11,096 - 127.0.0.1 - - [15/May/2025 20:34:11] "[35m[1mGET /api/twitter/search?q=blackrock HTTP/1.1[0m" 500 -
+2025-05-15 20:35:08,208 - 127.0.0.1 - - [15/May/2025 20:35:08] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:35:17,230 - 127.0.0.1 - - [15/May/2025 20:35:17] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:37:57,222 - 127.0.0.1 - - [15/May/2025 20:37:57] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:40:02,033 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 20:40:02,033 - [33mPress CTRL+C to quit[0m
+2025-05-15 20:40:02,034 -  * Restarting with stat
+2025-05-15 20:40:04,012 -  * Debugger is active!
+2025-05-15 20:40:04,013 -  * Debugger PIN: 617-682-219
+2025-05-15 20:42:33,811 - 127.0.0.1 - - [15/May/2025 20:42:33] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-15 20:45:09,853 - 127.0.0.1 - - [15/May/2025 20:45:09] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:48:21,213 - 127.0.0.1 - - [15/May/2025 20:48:21] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:48:31,868 - 127.0.0.1 - - [15/May/2025 20:48:31] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:48:36,361 - 127.0.0.1 - - [15/May/2025 20:48:36] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-15 20:54:11,705 - 127.0.0.1 - - [15/May/2025 20:54:11] "[35m[1mGET /api/twitter/search?q=blackrock HTTP/1.1[0m" 500 -
+2025-05-16 01:11:02,056 - 127.0.0.1 - - [16/May/2025 01:11:02] "POST /api/save-news HTTP/1.1" 200 -
+2025-05-16 01:11:02,061 - 127.0.0.1 - - [16/May/2025 01:11:02] "[35m[1mPOST /api/ai/summary HTTP/1.1[0m" 500 -
+2025-05-16 01:11:40,783 - 127.0.0.1 - - [16/May/2025 01:11:40] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-16 01:11:41,969 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-16 01:11:41,970 - Retrying request to /chat/completions in 0.387764 seconds
+2025-05-16 01:11:42,593 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-16 01:11:42,594 - Retrying request to /chat/completions in 0.936736 seconds
+2025-05-16 01:11:43,762 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-16 01:11:43,765 - 127.0.0.1 - - [16/May/2025 01:11:43] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-16 01:39:05,770 - 127.0.0.1 - - [16/May/2025 01:39:05] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-16 01:39:06,811 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-16 01:39:06,813 - Retrying request to /chat/completions in 0.403453 seconds
+2025-05-16 01:39:07,453 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-16 01:39:07,454 - Retrying request to /chat/completions in 0.958581 seconds
+2025-05-16 01:39:08,652 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-16 01:39:08,657 - 127.0.0.1 - - [16/May/2025 01:39:08] "[35m[1mPOST /api/ai/narrative-summary HTTP/1.1[0m" 500 -
+2025-05-16 01:39:31,721 - 127.0.0.1 - - [16/May/2025 01:39:31] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 01:46:12,272 - 127.0.0.1 - - [16/May/2025 01:46:12] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-16 01:53:42,744 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\twitter_api.py', reloading
+2025-05-16 01:53:43,021 -  * Restarting with stat
+2025-05-16 01:53:50,254 -  * Debugger is active!
+2025-05-16 01:53:50,255 -  * Debugger PIN: 617-682-219
+2025-05-16 01:57:36,694 - 127.0.0.1 - - [16/May/2025 01:57:36] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 02:06:39,048 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-16 02:06:39,048 - [33mPress CTRL+C to quit[0m
+2025-05-16 02:06:39,048 -  * Restarting with stat
+2025-05-16 02:06:41,027 -  * Debugger is active!
+2025-05-16 02:06:41,028 -  * Debugger PIN: 617-682-219
+2025-05-16 02:06:49,358 - 127.0.0.1 - - [16/May/2025 02:06:49] "[35m[1mGET /api/twitter/search?q=Ukraine HTTP/1.1[0m" 500 -
+2025-05-16 02:07:18,046 - 127.0.0.1 - - [16/May/2025 02:07:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-16 02:08:41,508 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\twitter_api.py', reloading
+2025-05-16 02:08:41,788 -  * Restarting with stat
+2025-05-16 02:08:43,833 -  * Debugger is active!
+2025-05-16 02:08:43,835 -  * Debugger PIN: 617-682-219
+2025-05-16 02:08:50,297 - 127.0.0.1 - - [16/May/2025 02:08:50] "[35m[1mGET /api/twitter/search?q=Ukraine HTTP/1.1[0m" 500 -
+2025-05-16 02:08:52,387 - 127.0.0.1 - - [16/May/2025 02:08:52] "[35m[1mGET /api/twitter/search?q=Ukraine HTTP/1.1[0m" 500 -
+2025-05-16 02:09:07,136 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-16 02:09:07,136 - [33mPress CTRL+C to quit[0m
+2025-05-16 02:09:07,137 -  * Restarting with stat
+2025-05-16 02:09:09,111 -  * Debugger is active!
+2025-05-16 02:09:09,112 -  * Debugger PIN: 617-682-219
+2025-05-16 02:09:13,490 - 127.0.0.1 - - [16/May/2025 02:09:13] "[35m[1mGET /api/twitter/search?q=Ukraine HTTP/1.1[0m" 500 -
+2025-05-16 02:09:19,824 - 127.0.0.1 - - [16/May/2025 02:09:19] "[35m[1mGET /api/twitter/search?q=Ukraine HTTP/1.1[0m" 500 -
+2025-05-16 02:09:50,934 - 127.0.0.1 - - [16/May/2025 02:09:50] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-16 02:10:00,715 - 127.0.0.1 - - [16/May/2025 02:10:00] "[35m[1mGET /api/twitter/search?q=Ukraine HTTP/1.1[0m" 500 -
+2025-05-16 02:12:11,711 - 127.0.0.1 - - [16/May/2025 02:12:11] "[35m[1mGET /api/twitter/search?q=BlackRock HTTP/1.1[0m" 500 -
+2025-05-16 21:04:46,613 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-16 21:04:46,613 - [33mPress CTRL+C to quit[0m
+2025-05-16 21:04:46,614 -  * Restarting with stat
+2025-05-16 21:04:48,559 -  * Debugger is active!
+2025-05-16 21:04:48,561 -  * Debugger PIN: 617-682-219
+2025-05-16 21:07:47,751 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-16 21:07:47,751 - [33mPress CTRL+C to quit[0m
+2025-05-16 21:07:47,751 -  * Restarting with stat
+2025-05-16 21:07:49,685 -  * Debugger is active!
+2025-05-16 21:07:49,686 -  * Debugger PIN: 617-682-219
+2025-05-16 21:09:57,045 - 127.0.0.1 - - [16/May/2025 21:09:57] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 21:10:46,984 - 127.0.0.1 - - [16/May/2025 21:10:46] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 21:17:21,762 - 127.0.0.1 - - [16/May/2025 21:17:21] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 21:17:59,931 - 127.0.0.1 - - [16/May/2025 21:17:59] "GET /api/twitter/search?q=ISRAEL HTTP/1.1" 200 -
+2025-05-16 21:21:47,823 - 127.0.0.1 - - [16/May/2025 21:21:47] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 21:21:47,829 - 127.0.0.1 - - [16/May/2025 21:21:47] "[33mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 404 -
+2025-05-16 21:22:04,442 - 127.0.0.1 - - [16/May/2025 21:22:04] "GET /api/twitter/search?q=BlackRock HTTP/1.1" 200 -
+2025-05-16 21:22:04,459 - 127.0.0.1 - - [16/May/2025 21:22:04] "[33mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 404 -
+2025-05-16 21:24:55,174 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-16 21:24:55,431 -  * Restarting with stat
+2025-05-16 21:24:57,484 -  * Debugger is active!
+2025-05-16 21:24:57,485 -  * Debugger PIN: 617-682-219
+2025-05-16 21:25:29,157 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-16 21:25:29,403 -  * Restarting with stat
+2025-05-16 21:43:41,068 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-16 21:43:41,068 - [33mPress CTRL+C to quit[0m
+2025-05-16 21:43:41,068 -  * Restarting with stat
+2025-05-16 21:43:42,990 -  * Debugger is active!
+2025-05-16 21:43:42,991 -  * Debugger PIN: 617-682-219
+2025-05-16 21:43:49,426 - 127.0.0.1 - - [16/May/2025 21:43:49] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-16 21:43:49,438 - 127.0.0.1 - - [16/May/2025 21:43:49] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-16 21:44:28,720 - 127.0.0.1 - - [16/May/2025 21:44:28] "[31m[1mGET /api/ai/sentiment-summary HTTP/1.1[0m" 405 -
+2025-05-16 21:44:33,669 - 127.0.0.1 - - [16/May/2025 21:44:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-16 21:48:02,172 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-16 21:48:02,172 - [33mPress CTRL+C to quit[0m
+2025-05-16 21:48:02,174 -  * Restarting with stat
+2025-05-16 21:48:04,149 -  * Debugger is active!
+2025-05-16 21:48:04,150 -  * Debugger PIN: 617-682-219
+2025-05-16 21:48:30,138 - 127.0.0.1 - - [16/May/2025 21:48:30] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-16 21:48:30,144 - 127.0.0.1 - - [16/May/2025 21:48:30] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 17:09:46,826 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.13:5000
+2025-05-17 17:09:46,827 - [33mPress CTRL+C to quit[0m
+2025-05-17 17:09:46,828 -  * Restarting with stat
+2025-05-17 17:09:48,714 -  * Debugger is active!
+2025-05-17 17:09:48,716 -  * Debugger PIN: 617-682-219
+2025-05-17 17:11:08,710 - 127.0.0.1 - - [17/May/2025 17:11:08] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 17:11:08,719 - 127.0.0.1 - - [17/May/2025 17:11:08] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 17:11:14,157 - 127.0.0.1 - - [17/May/2025 17:11:14] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 17:11:14,162 - 127.0.0.1 - - [17/May/2025 17:11:14] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 17:11:24,150 - 127.0.0.1 - - [17/May/2025 17:11:24] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 17:11:24,157 - 127.0.0.1 - - [17/May/2025 17:11:24] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 17:15:34,233 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-17 17:15:34,493 -  * Restarting with stat
+2025-05-17 19:10:58,212 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.13:5000
+2025-05-17 19:10:58,212 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:10:58,213 -  * Restarting with stat
+2025-05-17 19:11:00,127 -  * Debugger is active!
+2025-05-17 19:11:00,128 -  * Debugger PIN: 617-682-219
+2025-05-17 19:11:47,149 - 127.0.0.1 - - [17/May/2025 19:11:47] "[31m[1mGET /api/ai/sentiment-summary HTTP/1.1[0m" 405 -
+2025-05-17 19:11:47,165 - 127.0.0.1 - - [17/May/2025 19:11:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 19:14:48,404 - 127.0.0.1 - - [17/May/2025 19:14:48] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:14:48,420 - 127.0.0.1 - - [17/May/2025 19:14:48] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:18:16,744 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-17 19:18:16,989 -  * Restarting with stat
+2025-05-17 19:18:19,080 -  * Debugger is active!
+2025-05-17 19:18:19,081 -  * Debugger PIN: 617-682-219
+2025-05-17 19:18:37,750 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.13:5000
+2025-05-17 19:18:37,750 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:18:37,750 -  * Restarting with stat
+2025-05-17 19:18:39,801 -  * Debugger is active!
+2025-05-17 19:18:39,802 -  * Debugger PIN: 617-682-219
+2025-05-17 19:19:00,404 - 127.0.0.1 - - [17/May/2025 19:19:00] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:19:02,742 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:19:02,745 - 127.0.0.1 - - [17/May/2025 19:19:02] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:27:30,186 - 127.0.0.1 - - [17/May/2025 19:27:30] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:27:30,193 - 127.0.0.1 - - [17/May/2025 19:27:30] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:27:31,644 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:27:31,649 - 127.0.0.1 - - [17/May/2025 19:27:31] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:27:31,967 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:27:31,972 - 127.0.0.1 - - [17/May/2025 19:27:31] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:28:25,953 - 127.0.0.1 - - [17/May/2025 19:28:25] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:28:26,961 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:28:26,965 - 127.0.0.1 - - [17/May/2025 19:28:26] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:33:08,605 - 127.0.0.1 - - [17/May/2025 19:33:08] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:33:08,609 - 127.0.0.1 - - [17/May/2025 19:33:08] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:33:09,909 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:33:09,913 - 127.0.0.1 - - [17/May/2025 19:33:09] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:33:10,321 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:33:10,326 - 127.0.0.1 - - [17/May/2025 19:33:10] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:33:27,290 - 127.0.0.1 - - [17/May/2025 19:33:27] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:33:29,176 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 19:33:29,181 - 127.0.0.1 - - [17/May/2025 19:33:29] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 19:35:41,921 - 127.0.0.1 - - [17/May/2025 19:35:41] "[31m[1mGET /api/ai/sentiment-summary HTTP/1.1[0m" 405 -
+2025-05-17 19:36:40,891 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-17 19:36:41,170 -  * Restarting with stat
+2025-05-17 19:36:43,228 -  * Debugger is active!
+2025-05-17 19:36:43,229 -  * Debugger PIN: 617-682-219
+2025-05-17 19:36:46,113 - 127.0.0.1 - - [17/May/2025 19:36:46] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:36:46,123 - 127.0.0.1 - - [17/May/2025 19:36:46] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:36:57,532 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-17 19:36:57,772 -  * Restarting with stat
+2025-05-17 19:44:50,601 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.13:5000
+2025-05-17 19:44:50,601 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:44:50,602 -  * Restarting with stat
+2025-05-17 19:44:52,508 -  * Debugger is active!
+2025-05-17 19:44:52,509 -  * Debugger PIN: 617-682-219
+2025-05-17 19:45:02,681 - 127.0.0.1 - - [17/May/2025 19:45:02] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:45:02,687 - 127.0.0.1 - - [17/May/2025 19:45:02] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:45:57,550 - 127.0.0.1 - - [17/May/2025 19:45:57] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:45:57,558 - 127.0.0.1 - - [17/May/2025 19:45:57] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:51:38,640 - 127.0.0.1 - - [17/May/2025 19:51:38] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:51:38,651 - 127.0.0.1 - - [17/May/2025 19:51:38] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:51:42,449 - 127.0.0.1 - - [17/May/2025 19:51:42] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:51:42,459 - 127.0.0.1 - - [17/May/2025 19:51:42] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:54:58,598 - 127.0.0.1 - - [17/May/2025 19:54:58] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:54:58,619 - 127.0.0.1 - - [17/May/2025 19:54:58] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:55:03,948 - 127.0.0.1 - - [17/May/2025 19:55:03] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:55:03,960 - 127.0.0.1 - - [17/May/2025 19:55:03] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 19:58:54,564 - 127.0.0.1 - - [17/May/2025 19:58:54] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 19:58:54,577 - 127.0.0.1 - - [17/May/2025 19:58:54] "[35m[1mPOST /api/ai/sentiment-summary HTTP/1.1[0m" 500 -
+2025-05-17 20:01:46,656 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-17 20:01:46,908 -  * Restarting with stat
+2025-05-17 20:01:49,110 -  * Debugger is active!
+2025-05-17 20:01:49,112 -  * Debugger PIN: 617-682-219
+2025-05-17 20:01:51,547 - 127.0.0.1 - - [17/May/2025 20:01:51] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 20:01:54,390 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 20:01:54,393 - 127.0.0.1 - - [17/May/2025 20:01:54] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 20:10:59,205 - 127.0.0.1 - - [17/May/2025 20:10:59] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 20:11:00,950 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 20:11:00,954 - 127.0.0.1 - - [17/May/2025 20:11:00] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 20:11:46,296 - 127.0.0.1 - - [17/May/2025 20:11:46] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 20:11:47,877 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 20:11:47,880 - 127.0.0.1 - - [17/May/2025 20:11:47] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 20:15:56,619 - 127.0.0.1 - - [17/May/2025 20:15:56] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 20:15:58,699 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 20:15:58,705 - 127.0.0.1 - - [17/May/2025 20:15:58] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 20:22:42,128 - 127.0.0.1 - - [17/May/2025 20:22:42] "GET /api/twitter/search?q=Israel HTTP/1.1" 200 -
+2025-05-17 20:22:43,263 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 20:22:43,266 - 127.0.0.1 - - [17/May/2025 20:22:43] "POST /api/ai/sentiment-summary HTTP/1.1" 200 -
+2025-05-17 20:24:35,234 - 127.0.0.1 - - [17/May/2025 20:24:35] "GET /api/narratives HTTP/1.1" 200 -
+2025-05-17 20:24:35,443 - 127.0.0.1 - - [17/May/2025 20:24:35] "POST /api/save-news HTTP/1.1" 200 -
+2025-05-17 20:24:35,452 - 127.0.0.1 - - [17/May/2025 20:24:35] "[35m[1mPOST /api/ai/summary HTTP/1.1[0m" 500 -
+2025-05-17 20:24:36,770 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 20:24:36,776 - 127.0.0.1 - - [17/May/2025 20:24:36] "POST /api/ai/narrative-summary HTTP/1.1" 200 -
+2025-05-18 15:59:14,074 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.7:5000
+2025-05-18 15:59:14,074 - [33mPress CTRL+C to quit[0m
+2025-05-18 15:59:14,075 -  * Restarting with stat
+2025-05-18 15:59:16,145 -  * Debugger is active!
+2025-05-18 15:59:16,146 -  * Debugger PIN: 617-682-219
+2025-05-18 16:00:14,171 - 127.0.0.1 - - [18/May/2025 16:00:14] "[33mPOST /api/ai/user-summary HTTP/1.1[0m" 404 -
+2025-05-18 16:08:53,916 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_sentiment.py', reloading
+2025-05-18 16:08:54,177 -  * Restarting with stat
+2025-05-18 16:08:56,455 -  * Debugger is active!
+2025-05-18 16:08:56,456 -  * Debugger PIN: 617-682-219
+2025-05-18 16:09:44,848 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.7:5000
+2025-05-18 16:09:44,848 - [33mPress CTRL+C to quit[0m
+2025-05-18 16:09:44,849 -  * Restarting with stat
+2025-05-18 16:09:47,027 -  * Debugger is active!
+2025-05-18 16:09:47,028 -  * Debugger PIN: 617-682-219
+2025-05-18 16:09:56,543 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:09:56,551 - 127.0.0.1 - - [18/May/2025 16:09:56] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:10:37,533 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:10:37,541 - 127.0.0.1 - - [18/May/2025 16:10:37] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:15:31,275 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:15:31,278 - 127.0.0.1 - - [18/May/2025 16:15:31] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:16:27,672 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:16:27,679 - 127.0.0.1 - - [18/May/2025 16:16:27] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:17:41,434 - 127.0.0.1 - - [18/May/2025 16:17:41] "[35m[1mPOST /api/ai/user-summary HTTP/1.1[0m" 500 -
+2025-05-18 16:17:47,368 - 127.0.0.1 - - [18/May/2025 16:17:47] "[35m[1mPOST /api/ai/user-summary HTTP/1.1[0m" 500 -
+2025-05-18 16:19:10,692 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:19:10,694 - 127.0.0.1 - - [18/May/2025 16:19:10] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:19:10,950 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:19:10,954 - 127.0.0.1 - - [18/May/2025 16:19:10] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:22:35,680 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:22:35,687 - 127.0.0.1 - - [18/May/2025 16:22:35] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:24:45,024 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:24:45,028 - 127.0.0.1 - - [18/May/2025 16:24:45] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:26:23,039 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:26:23,047 - 127.0.0.1 - - [18/May/2025 16:26:23] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:26:23,456 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:26:23,459 - 127.0.0.1 - - [18/May/2025 16:26:23] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:26:53,879 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:26:53,882 - 127.0.0.1 - - [18/May/2025 16:26:53] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:26:54,293 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:26:54,295 - 127.0.0.1 - - [18/May/2025 16:26:54] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:26:57,493 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:26:57,497 - 127.0.0.1 - - [18/May/2025 16:26:57] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:51:53,900 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:51:53,903 - 127.0.0.1 - - [18/May/2025 16:51:53] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:52:01,419 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 16:52:01,421 - 127.0.0.1 - - [18/May/2025 16:52:01] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 16:59:00,122 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\group_sentiment_api.py', reloading
+2025-05-18 16:59:00,404 -  * Restarting with stat
+2025-05-18 16:59:02,629 -  * Debugger is active!
+2025-05-18 16:59:02,630 -  * Debugger PIN: 617-682-219
+2025-05-18 16:59:52,244 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api_server.py', reloading
+2025-05-18 16:59:52,494 -  * Restarting with stat
+2025-05-18 16:59:54,758 -  * Debugger is active!
+2025-05-18 16:59:54,760 -  * Debugger PIN: 617-682-219
+2025-05-18 17:01:18,941 - 127.0.0.1 - - [18/May/2025 17:01:18] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 17:08:09,559 - 127.0.0.1 - - [18/May/2025 17:08:09] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 17:08:17,615 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:08:17,620 - 127.0.0.1 - - [18/May/2025 17:08:17] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 17:08:18,109 - 127.0.0.1 - - [18/May/2025 17:08:18] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 17:55:44,874 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:55:44,878 - 127.0.0.1 - - [18/May/2025 17:55:44] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 17:55:49,144 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:55:49,155 - 127.0.0.1 - - [18/May/2025 17:55:49] "POST /api/ai/user-summary HTTP/1.1" 200 -
+2025-05-18 18:05:38,232 - 127.0.0.1 - - [18/May/2025 18:05:38] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 18:24:39,577 - 127.0.0.1 - - [18/May/2025 18:24:39] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 18:24:47,638 - 127.0.0.1 - - [18/May/2025 18:24:47] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 18:27:25,946 - 127.0.0.1 - - [18/May/2025 18:27:25] "POST /api/ai/group-sentiment HTTP/1.1" 200 -
+2025-05-18 18:45:05,178 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\core\\api\\group_compare_api.py', reloading
+2025-05-18 18:45:05,459 -  * Restarting with stat
+2025-05-18 18:45:07,748 -  * Debugger is active!
+2025-05-18 18:45:07,749 -  * Debugger PIN: 617-682-219
+2025-05-18 18:48:34,020 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-18 18:48:34,267 -  * Restarting with stat
+2025-05-18 18:48:36,417 -  * Debugger is active!
+2025-05-18 18:48:36,418 -  * Debugger PIN: 617-682-219
+2025-05-18 18:52:19,012 - 127.0.0.1 - - [18/May/2025 18:52:19] "[33mPOST /api/ai/group-compare HTTP/1.1[0m" 404 -
+2025-05-18 18:57:43,849 - 127.0.0.1 - - [18/May/2025 18:57:43] "[33mPOST /api/ai/group-compare HTTP/1.1[0m" 404 -
+2025-05-18 19:00:21,791 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_insights_api.py', reloading
+2025-05-18 19:00:22,039 -  * Restarting with stat
+2025-05-18 19:00:24,243 -  * Debugger is active!
+2025-05-18 19:00:24,244 -  * Debugger PIN: 617-682-219

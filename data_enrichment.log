@@ -74,3 +74,29 @@
 2025-05-09 18:23:02,770 - 127.0.0.1 - - [09/May/2025 18:23:02] "GET /api/ai-insights HTTP/1.1" 200 -
 2025-05-09 18:27:24,478 - 127.0.0.1 - - [09/May/2025 18:27:24] "GET /api/ai-insights HTTP/1.1" 200 -
 2025-05-09 18:44:28,395 - 127.0.0.1 - - [09/May/2025 18:44:28] "GET /api/ai-insights HTTP/1.1" 200 -
+2025-05-13 17:38:01,390 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.7:5000
+2025-05-13 17:38:01,391 - [33mPress CTRL+C to quit[0m
+2025-05-13 17:38:01,392 -  * Restarting with stat
+2025-05-13 17:38:02,776 -  * Debugger is active!
+2025-05-13 17:38:02,778 -  * Debugger PIN: 670-508-653
+2025-05-15 17:31:14,739 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 17:31:14,741 - [33mPress CTRL+C to quit[0m
+2025-05-15 17:31:14,741 -  * Restarting with stat
+2025-05-15 17:31:16,137 -  * Debugger is active!
+2025-05-15 17:31:16,138 -  * Debugger PIN: 617-682-219
+2025-05-15 17:34:42,765 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.5:5000
+2025-05-15 17:34:42,765 - [33mPress CTRL+C to quit[0m
+2025-05-15 17:34:42,766 -  * Restarting with stat
+2025-05-15 17:34:44,157 -  * Debugger is active!
+2025-05-15 17:34:44,158 -  * Debugger PIN: 617-682-219
+2025-05-15 18:26:54,972 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_insights_api.py', reloading
+2025-05-15 18:26:55,175 -  * Restarting with stat

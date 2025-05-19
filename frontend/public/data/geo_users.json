@@ -1,0 +1,57 @@
+[
+  {
+    "id": 101,
+    "name": "Daniel Cohen",
+    "username": "danielco",
+    "phone": "+972501234567",
+    "distance_m": 400,
+    "location": {
+      "lat": 32.0748,
+      "lon": 34.7799
+    }
+  },
+  {
+    "id": 102,
+    "name": "Noa Levi",
+    "username": "noalevi",
+    "phone": "+972522345678",
+    "distance_m": 800,
+    "location": {
+      "lat": 32.0736,
+      "lon": 34.7821
+    }
+  },
+  {
+    "id": 103,
+    "name": "Yossi Mizrahi",
+    "username": "yossimz",
+    "phone": "+972533456789",
+    "distance_m": 1200,
+    "location": {
+      "lat": 32.0722,
+      "lon": 34.7775
+    }
+  },
+  {
+    "id": 104,
+    "name": "Lior Ben-David",
+    "username": "liorb",
+    "phone": "+972544567890",
+    "distance_m": 1600,
+    "location": {
+      "lat": 32.0755,
+      "lon": 34.781
+    }
+  },
+  {
+    "id": 105,
+    "name": "Maya Shalev",
+    "username": "mayash",
+    "phone": "+972555678901",
+    "distance_m": 2000,
+    "location": {
+      "lat": 32.0708,
+      "lon": 34.7842
+    }
+  }
+]

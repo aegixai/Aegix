@@ -1,19 +1,20 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-const isProduction = process.env.NODE_ENV === 'production';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
   server: {
     proxy: {
       '/api': {
-        target: isProduction
-          ? 'https://aegix-api.onrender.com' // 🔁 כתובת ה־Backend שלך ברנדר
-          : 'http://localhost:5000',         // 🧪 פיתוח מקומי
+        target: 'http://localhost:5000',
         changeOrigin: true,
-        secure: false,
       },
     },
   },
-});
+})

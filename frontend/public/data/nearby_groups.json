@@ -1,0 +1,22 @@
+[
+  {
+    "group_name": "חדשות תל אביב",
+    "distance": "500m"
+  },
+  {
+    "group_name": "דיווחים בזמן אמת",
+    "distance": "1000m"
+  },
+  {
+    "group_name": "קהילת יזמות TLV",
+    "distance": "1500m"
+  },
+  {
+    "group_name": "מודיעין בטחוני",
+    "distance": "2000m"
+  },
+  {
+    "group_name": "סייבר וחקירות",
+    "distance": "2500m"
+  }
+]

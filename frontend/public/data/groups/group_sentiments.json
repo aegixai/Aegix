@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "Crypto Whales",
+      "platform": "Telegram",
+      "sector": "Finance",
+      "keywords": ["bitcoin", "wallet", "whale"],
+      "users": [
+        { "id": "u1", "username": "cryptoshark77", "sentiment": -0.6 },
+        { "id": "u2", "username": "bigbear", "sentiment": -0.4 },
+        { "id": "u3", "username": "satoshi123", "sentiment": 0.2 }
+      ],
+      "sentimentTimeline": [
+        { "date": "2025-05-01", "value": -0.5 },
+        { "date": "2025-05-05", "value": -0.4 },
+        { "date": "2025-05-10", "value": -0.3 }
+      ]
+    },
+    {
+      "name": "Altcoin Alerts",
+      "platform": "Twitter",
+      "sector": "Finance",
+      "keywords": ["altcoin", "doge", "pump"],
+      "users": [
+        { "id": "u4", "username": "moontrader", "sentiment": 0.1 },
+        { "id": "u5", "username": "elon4real", "sentiment": 0.5 },
+        { "id": "u6", "username": "investor_bot", "sentiment": -0.2 }
+      ],
+      "sentimentTimeline": [
+        { "date": "2025-05-01", "value": 0.2 },
+        { "date": "2025-05-05", "value": 0.0 },
+        { "date": "2025-05-10", "value": 0.1 }
+      ]
+    },
+    {
+      "name": "HackTheWorld",
+      "platform": "Discord",
+      "sector": "Cyber",
+      "keywords": ["exploit", "leak", "zero-day"],
+      "users": [
+        { "id": "u7", "username": "0xHax", "sentiment": -0.9 },
+        { "id": "u8", "username": "darkwizard", "sentiment": -0.8 },
+        { "id": "u9", "username": "cyberprince", "sentiment": -0.5 }
+      ],
+      "sentimentTimeline": [
+        { "date": "2025-05-02", "value": -0.8 },
+        { "date": "2025-05-06", "value": -0.9 },
+        { "date": "2025-05-10", "value": -0.7 }
+      ]
+    }
+  ]
+}

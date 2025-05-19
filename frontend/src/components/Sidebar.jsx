@@ -1,8 +1,10 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { AlertTriangle } from "lucide-react";
 import {
   Home,
   BarChart3,
+  BarChart, 
   Search,
   Users,
   AlertCircle,
@@ -65,8 +67,21 @@ const Sidebar = () => {
     { label: "AI Risk Insights", to: "/ai-employee-insights" },
     { label: "Narrative Monitor (Employee)", to: "/narrative-monitor-employee" },
 
+    // ✅ Geo Intelligence
+    { label: "🌍 Geo Intelligence", to: "/geo-report", icon: <Globe className='w-4 h-4' /> },
+    { label: "📍 Geo Search", to: "/geo-search", icon: <Search className="w-4 h-4" /> },
+
     // ✅ Investigation
     { label: "🕵️ Investigation Center", to: "/investigation-center", icon: <FileSearch className="w-4 h-4" /> },
+    { label: "Sector Overview", to: "/sector-overview", icon: <BarChart3 className="w-4 h-4" /> },
+    { label: "בדיקת מקוריות תמונה", to: "/image-auth", icon: <Search className="w-4 h-4" /> },
+    { label: "דוח מודיעין תמונות", to: "/intel-report", icon: <FileSearch className="w-4 h-4" /> },
+    { label: "ניתוח תמונה מתקדם", to: "/image-advanced", icon: <Brain className="w-4 h-4" /> },
+
+    // ✅ Influence Monitor
+    { label: "📦 Group Tracker", to: "/group-tracker", icon: <Users className="w-4 h-4" /> },
+    { label: "🚨 Negative Influencers", to: "/negative-influencers", icon: <AlertTriangle className="w-4 h-4" /> },
+    { label: "📊 Group Comparison", to: "/group-compare", icon: <BarChart className="w-4 h-4" /> },
 
     // ✅ Avatar Suite
     { label: "🎭 Avatar Admin Panel", to: "/admin/avatar-suite" },
