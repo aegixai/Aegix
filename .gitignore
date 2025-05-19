@@ -1,0 +1,6 @@
+aegix_project/.env
+node_modules
+dist
+*.log
+.env
+*.env
