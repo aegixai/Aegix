@@ -1,15 +1,34 @@
+# Core web & server
 Flask
 gunicorn
 flask-cors
+
+# Config & environment
 python-dotenv
+
+# PDF generation
 fpdf
+
+# Image & OCR
 Pillow
+tesseract
+
+# NLP & Transformers
 transformers
 torch
-tesseract
+regex
+tokenizers
+safetensors
+huggingface-hub
+
+# Telegram scraping
 telethon
+
+# Finance & data APIs
 yfinance
 quandl
+
+# Data & analytics
 requests
 beautifulsoup4
 pandas
@@ -17,26 +36,26 @@ numpy
 scikit-learn
 matplotlib
 networkx
+sympy
+geopy
 
-# Indirect dependencies required for Render deployments
+# Additional AI & numerical libs
+triton
+tqdm
+
+# Other helpers & internals
 jinja2
 itsdangerous
 werkzeug
 markupsafe
-regex
-tokenizers
-safetensors
-huggingface-hub
+pyyaml
 filelock
 more-itertools
 typing-extensions
-pyyaml
 fsspec
-sympy
 pycparser
 cffi
 protobuf
-triton
 tzdata
 mpmath
 inflection
