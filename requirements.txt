@@ -1,61 +1,62 @@
-# Core web & server
+# Web Server
 Flask
 gunicorn
 flask-cors
 
-# Config & environment
+# Configuration
 python-dotenv
 
-# PDF generation
+# PDF & Image
 fpdf
-
-# Image & OCR
 Pillow
 tesseract
 
-# NLP & Transformers
+# AI/NLP
 transformers
 torch
-regex
-tokenizers
-safetensors
-huggingface-hub
+nltk
 
-# Telegram scraping
+# Telegram Intelligence
 telethon
 
-# Finance & data APIs
+# Financial APIs
 yfinance
 quandl
 
-# Data & analytics
-requests
-beautifulsoup4
+# Data Analytics & ML
 pandas
 numpy
 scikit-learn
 matplotlib
 networkx
 sympy
+scipy
+
+# Geolocation
 geopy
 
-# Additional AI & numerical libs
-triton
-tqdm
+# Utilities
+requests
+beautifulsoup4
 
-# Other helpers & internals
+# Internal dependencies required by others
 jinja2
 itsdangerous
 werkzeug
 markupsafe
-pyyaml
+regex
+tokenizers
+safetensors
+huggingface-hub
 filelock
 more-itertools
 typing-extensions
+pyyaml
 fsspec
 pycparser
 cffi
 protobuf
+triton
 tzdata
 mpmath
 inflection
@@ -65,3 +66,19 @@ platformdirs
 urllib3
 certifi
 idna
+six
+soupsieve
+pyparsing
+python-dateutil
+threadpoolctl
+websockets
+rsa
+pyasn1
+pyaes
+joblib
+kiwisolver
+fonttools
+contourpy
+cycler
+packaging
+geographiclib
