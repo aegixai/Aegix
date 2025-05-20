@@ -1,45 +1,27 @@
-# Web Server
 Flask
 gunicorn
 flask-cors
-
-# Configuration
 python-dotenv
-
-# PDF & Image
 fpdf
 Pillow
-tesseract
-
-# AI/NLP
 transformers
 torch
-nltk
-
-# Telegram Intelligence
+torchvision
+tesseract
 telethon
-
-# Financial APIs
 yfinance
 quandl
-
-# Data Analytics & ML
+requests
+beautifulsoup4
 pandas
 numpy
 scikit-learn
 matplotlib
-networkx
-sympy
-scipy
-
-# Geolocation
+nltk
 geopy
+openai
 
-# Utilities
-requests
-beautifulsoup4
-
-# Internal dependencies required by others
+# תלות פנימיות (לכלול במידה ונדרש):
 jinja2
 itsdangerous
 werkzeug
@@ -53,6 +35,7 @@ more-itertools
 typing-extensions
 pyyaml
 fsspec
+sympy
 pycparser
 cffi
 protobuf
@@ -66,20 +49,13 @@ platformdirs
 urllib3
 certifi
 idna
-six
-soupsieve
 pyparsing
-python-dateutil
-threadpoolctl
-websockets
-rsa
-pyasn1
-pyaes
+scipy
 joblib
 kiwisolver
-fonttools
-contourpy
 cycler
-packaging
+fonttools
+rsa
+pyasn1
+websockets
 geographiclib
-openai
