@@ -40,7 +40,12 @@ from aegix_project.core.api.intel_report_api import intel_report_api
 
 # 🧠 Flask App Setup
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])
+CORS(app, origins=["http://localhost:5173", "*"])
+
+# ✅ Root route to prevent 404
+@app.route("/")
+def root_status():
+    return jsonify({"status": "AEGIX backend is live ✅", "routes": ["/api/", "/uploads/", "/healthcheck"]}), 200
 
 # 📦 Register Blueprints
 app.register_blueprint(telegram_bp)
