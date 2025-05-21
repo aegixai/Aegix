@@ -71,10 +71,11 @@ app.register_blueprint(intel_report_api)
 def uploaded_image(filename):
     return send_from_directory("uploads", filename)
 
-# 🚀 Flask API Server
+# 🚀 Flask API Server (Render-compatible)
 def run_flask_app():
-    print("🚀 Starting Flask API server...")
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))  # Render expects PORT from env
+    print(f"🚀 Starting Flask API server on port {port}...")
+    app.run(debug=True, host="0.0.0.0", port=port)
 
 # 🔄 Telegram Monitoring to Alerts
 def run_pipeline():
