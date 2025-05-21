@@ -1,4 +1,4 @@
-# 📁 main.py — AEGIX Launcher (Final version using full module paths)
+# 📁 main.py — AEGIX Launcher (Render-ready version)
 
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
@@ -42,10 +42,17 @@ from aegix_project.core.api.intel_report_api import intel_report_api
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173", "*"])
 
-# ✅ Root route to prevent 404
+# ✅ Root route to prevent 404 (for Render)
 @app.route("/")
 def root_status():
-    return jsonify({"status": "AEGIX backend is live ✅", "routes": ["/api/", "/uploads/", "/healthcheck"]}), 200
+    return jsonify({
+        "status": "✅ AEGIX backend is live",
+        "routes": [
+            "/api/",
+            "/uploads/<filename>",
+            "/healthcheck"
+        ]
+    })
 
 # 📦 Register Blueprints
 app.register_blueprint(telegram_bp)
