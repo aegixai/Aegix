@@ -31,6 +31,8 @@ from aegix_project.core.api.search_query_api import search_query_api
 from aegix_project.core.api.broadcast_routes import broadcast_api
 from aegix_project.core.api.fileintel_routes import fileintel_api
 from aegix_project.core.api.group_compare_api import group_compare_api
+from aegix_project.api.shodan_api import shodan_api
+from aegix_project.api.shodan_ai_api import shodan_ai_api
 
 # ✅ AI + MEDIA
 from aegix_project.api.ai_insights_api import ai_insights_api
@@ -65,6 +67,8 @@ app.register_blueprint(ai_insights_api)
 app.register_blueprint(media_auth_api)
 app.register_blueprint(media_image_classifier_api)
 app.register_blueprint(intel_report_api)
+app.register_blueprint(shodan_api, url_prefix="/api/shodan")
+app.register_blueprint(shodan_ai_api)
 
 # 📁 Serve uploaded images
 @app.route("/uploads/<filename>")

@@ -1,6 +1,6 @@
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { useParams, useNavigate } from "react-router-dom";
 import { Pie, Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -11,7 +11,6 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import { useNavigate } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 
 ChartJS.register(ArcElement, CategoryScale, LinearScale, BarElement, Tooltip, Legend);
@@ -27,8 +26,9 @@ const extractKeywords = (text) => {
 };
 
 const ProductSentimentDashboard = () => {
+  const { companyId } = useParams();
   const [tweets, setTweets] = useState([]);
-  const [query, setQuery] = useState("Israel");
+  const [query, setQuery] = useState(companyId || "Israel");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [sentimentCounts, setSentimentCounts] = useState({ positive: 0, neutral: 0, negative: 0 });
@@ -93,7 +93,7 @@ const ProductSentimentDashboard = () => {
 
   useEffect(() => {
     fetchTweets();
-  }, []);
+  }, [companyId]);
 
   const pieData = {
     labels: ["Positive", "Neutral", "Negative"],
@@ -117,7 +117,7 @@ const ProductSentimentDashboard = () => {
     <div className="bg-black text-white p-6 min-h-screen">
       <div className="flex justify-between mb-4">
         <h1 className="text-3xl font-bold">📢 Product Sentiment Dashboard (Twitter)</h1>
-        <button onClick={() => navigate("/company-profile")} className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded text-sm">← Back</button>
+        <button onClick={() => navigate(`/company-profile/${companyId}`)} className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded text-sm">← Back</button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">

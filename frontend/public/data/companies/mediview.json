@@ -1,0 +1,35 @@
+{
+  "id": "mediview",
+  "name": "MediView Health",
+  "sector": "HealthTech",
+  "description": "פלטפורמה לזיהוי מחלות מתמונות MRI בעזרת GPT-4 Vision.",
+  "founded": "2021",
+  "headquarters": "סן פרנסיסקו, קליפורניה",
+  "legal_exposure": {
+    "status": "אין תביעות",
+    "details": "נמצא בתהליך רגולציה מול ה־FDA לאישור מוצר AI רפואי."
+  },
+  "customer_sentiment": {
+    "summary": "חיובי מאוד בקרב רופאים וחוקרים",
+    "keywords": ["Medical AI", "MRI", "Diagnosis", "Fast Results"]
+  },
+  "employees": [
+    {
+      "name": "Dr. Yossi Harari",
+      "role": "Founder & AI Researcher",
+      "risk_level": "Low",
+      "location": "USA"
+    },
+    {
+      "name": "Einat Koren",
+      "role": "Clinical Advisor",
+      "risk_level": "Medium",
+      "location": "Germany"
+    }
+  ],
+  "main_competitors": ["HealthScanAI", "DeepMedix"],
+  "regulatory_status": "בשלבי ניסוי קליני, ממתינים לאישור FDA",
+  "score": 88,
+  "risk_index": 1,
+  "ai_summary": "MediView בונה פתרון פורץ דרך בתחום הרפואה הדיגיטלית עם פוטנציאל מסחרי גבוה."
+}

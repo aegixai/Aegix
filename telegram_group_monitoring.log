@@ -369,3 +369,462 @@
 2025-05-19 21:43:09,543 - 127.0.0.1 - - [19/May/2025 21:43:09] "GET /api/reports/view HTTP/1.1" 200 -
 2025-05-19 21:56:07,398 - 127.0.0.1 - - [19/May/2025 21:56:07] "GET /api/reports/view HTTP/1.1" 200 -
 2025-05-19 22:01:37,291 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\core\\api\\media_auth_ai.py', reloading
+2025-05-19 22:01:37,950 -  * Restarting with stat
+2025-05-19 22:01:44,464 -  * Debugger is active!
+2025-05-19 22:01:44,464 -  * Debugger PIN: 617-682-219
+2025-05-19 22:09:08,225 - 127.0.0.1 - - [19/May/2025 22:09:08] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:09:08,560 - 127.0.0.1 - - [19/May/2025 22:09:08] "GET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1" 200 -
+2025-05-19 22:09:14,577 - 127.0.0.1 - - [19/May/2025 22:09:14] "POST /api/reports/add-image-check HTTP/1.1" 200 -
+2025-05-19 22:09:18,240 - 127.0.0.1 - - [19/May/2025 22:09:18] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:17:07,283 - 127.0.0.1 - - [19/May/2025 22:17:07] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:17:15,315 - 127.0.0.1 - - [19/May/2025 22:17:15] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:17:15,634 - 127.0.0.1 - - [19/May/2025 22:17:15] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:17:15,640 - 127.0.0.1 - - [19/May/2025 22:17:15] "GET /uploads/actor_placeholder.jpg HTTP/1.1" 200 -
+2025-05-19 22:17:26,318 - 127.0.0.1 - - [19/May/2025 22:17:26] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:18:17,577 - 127.0.0.1 - - [19/May/2025 22:18:17] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:18:17,889 - 127.0.0.1 - - [19/May/2025 22:18:17] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:18:17,890 - 127.0.0.1 - - [19/May/2025 22:18:17] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:18:21,838 - 127.0.0.1 - - [19/May/2025 22:18:21] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:18:34,717 - 127.0.0.1 - - [19/May/2025 22:18:34] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:18:34,720 - 127.0.0.1 - - [19/May/2025 22:18:34] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:21:29,135 - 127.0.0.1 - - [19/May/2025 22:21:29] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:21:35,475 - 127.0.0.1 - - [19/May/2025 22:21:35] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:21:43,061 - 127.0.0.1 - - [19/May/2025 22:21:43] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:21:51,123 - 127.0.0.1 - - [19/May/2025 22:21:51] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:21:51,429 - 127.0.0.1 - - [19/May/2025 22:21:51] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:21:51,429 - 127.0.0.1 - - [19/May/2025 22:21:51] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:22:48,129 - 127.0.0.1 - - [19/May/2025 22:22:48] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:22:52,551 - 127.0.0.1 - - [19/May/2025 22:22:52] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:22:52,874 - 127.0.0.1 - - [19/May/2025 22:22:52] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:22:52,875 - 127.0.0.1 - - [19/May/2025 22:22:52] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:23:30,130 - 127.0.0.1 - - [19/May/2025 22:23:30] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:23:44,589 - 127.0.0.1 - - [19/May/2025 22:23:44] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:23:44,597 - 127.0.0.1 - - [19/May/2025 22:23:44] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:23:44,915 - 127.0.0.1 - - [19/May/2025 22:23:44] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:24:08,168 - 127.0.0.1 - - [19/May/2025 22:24:08] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:24:08,496 - 127.0.0.1 - - [19/May/2025 22:24:08] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:24:08,497 - 127.0.0.1 - - [19/May/2025 22:24:08] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:33:10,268 - 127.0.0.1 - - [19/May/2025 22:33:10] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:33:13,339 - 127.0.0.1 - - [19/May/2025 22:33:13] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:33:24,908 - 127.0.0.1 - - [19/May/2025 22:33:24] "GET /uploads/37bb9e5d-9c75-45c1-b5dd-58a0c2ad0de0.jpg HTTP/1.1" 200 -
+2025-05-19 22:36:55,958 - 127.0.0.1 - - [19/May/2025 22:36:55] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:36:56,299 - 127.0.0.1 - - [19/May/2025 22:36:56] "GET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1" 200 -
+2025-05-19 22:37:02,688 - 127.0.0.1 - - [19/May/2025 22:37:02] "POST /api/reports/add-image-check HTTP/1.1" 200 -
+2025-05-19 22:37:11,320 - 127.0.0.1 - - [19/May/2025 22:37:11] "[36mGET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1[0m" 304 -
+2025-05-19 22:40:17,243 - 127.0.0.1 - - [19/May/2025 22:40:17] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:40:17,565 - 127.0.0.1 - - [19/May/2025 22:40:17] "GET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1" 200 -
+2025-05-19 22:40:22,104 - 127.0.0.1 - - [19/May/2025 22:40:22] "POST /api/reports/add-image-check HTTP/1.1" 200 -
+2025-05-19 22:43:38,047 - 127.0.0.1 - - [19/May/2025 22:43:38] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:43:46,505 - 127.0.0.1 - - [19/May/2025 22:43:46] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:43:46,512 - 127.0.0.1 - - [19/May/2025 22:43:46] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:43:46,824 - 127.0.0.1 - - [19/May/2025 22:43:46] "[36mGET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1[0m" 304 -
+2025-05-19 22:43:46,826 - 127.0.0.1 - - [19/May/2025 22:43:46] "[36mGET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1[0m" 304 -
+2025-05-19 22:43:54,553 - 127.0.0.1 - - [19/May/2025 22:43:54] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:43:54,892 - 127.0.0.1 - - [19/May/2025 22:43:54] "GET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1" 200 -
+2025-05-19 22:43:58,826 - 127.0.0.1 - - [19/May/2025 22:43:58] "POST /api/reports/add-image-check HTTP/1.1" 200 -
+2025-05-19 22:44:09,760 - 127.0.0.1 - - [19/May/2025 22:44:09] "[36mGET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1[0m" 304 -
+2025-05-19 22:44:13,469 - 127.0.0.1 - - [19/May/2025 22:44:13] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:44:13,476 - 127.0.0.1 - - [19/May/2025 22:44:13] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-19 22:44:13,798 - 127.0.0.1 - - [19/May/2025 22:44:13] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:44:13,805 - 127.0.0.1 - - [19/May/2025 22:44:13] "[36mGET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1[0m" 304 -
+2025-05-19 22:44:13,810 - 127.0.0.1 - - [19/May/2025 22:44:13] "[36mGET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1[0m" 304 -
+2025-05-19 22:44:25,253 - 127.0.0.1 - - [19/May/2025 22:44:25] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-19 22:44:48,958 - 127.0.0.1 - - [19/May/2025 22:44:48] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:44:49,307 - 127.0.0.1 - - [19/May/2025 22:44:49] "GET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1" 200 -
+2025-05-19 22:44:57,632 - 127.0.0.1 - - [19/May/2025 22:44:57] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:44:57,643 - 127.0.0.1 - - [19/May/2025 22:44:57] "GET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1" 200 -
+2025-05-19 22:45:04,552 - 127.0.0.1 - - [19/May/2025 22:45:04] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:45:04,877 - 127.0.0.1 - - [19/May/2025 22:45:04] "GET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1" 200 -
+2025-05-19 22:46:58,643 - 127.0.0.1 - - [19/May/2025 22:46:58] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:46:58,961 - 127.0.0.1 - - [19/May/2025 22:46:58] "GET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1" 200 -
+2025-05-19 22:57:57,192 - 127.0.0.1 - - [19/May/2025 22:57:57] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-19 22:57:57,522 - 127.0.0.1 - - [19/May/2025 22:57:57] "GET /uploads/fake-news-photos-viral-photoshop-1-5c6fe612590ec__700.jpg HTTP/1.1" 200 -
+2025-05-20 11:30:01,875 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 11:30:01,875 - [33mPress CTRL+C to quit[0m
+2025-05-20 11:30:01,876 -  * Restarting with stat
+2025-05-20 11:30:07,395 -  * Debugger is active!
+2025-05-20 11:30:07,396 -  * Debugger PIN: 617-682-219
+2025-05-20 11:30:26,907 - 127.0.0.1 - - [20/May/2025 11:30:26] "[36mGET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1[0m" 304 -
+2025-05-20 11:59:28,840 - 127.0.0.1 - - [20/May/2025 11:59:28] "OPTIONS /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 11:59:31,811 - 127.0.0.1 - - [20/May/2025 11:59:31] "POST /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 11:59:40,899 - 127.0.0.1 - - [20/May/2025 11:59:40] "[33mPOST /api/ai/sector-overview HTTP/1.1[0m" 404 -
+2025-05-20 12:02:11,432 - 127.0.0.1 - - [20/May/2025 12:02:11] "OPTIONS /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 12:02:14,277 - 127.0.0.1 - - [20/May/2025 12:02:14] "POST /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 12:02:50,830 - 127.0.0.1 - - [20/May/2025 12:02:50] "OPTIONS /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 12:02:54,584 - 127.0.0.1 - - [20/May/2025 12:02:54] "POST /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 12:02:55,154 - 127.0.0.1 - - [20/May/2025 12:02:55] "POST /api/ai/group-compare-insight HTTP/1.1" 200 -
+2025-05-20 12:17:36,425 - 127.0.0.1 - - [20/May/2025 12:17:36] "[33mPOST /api/save-news HTTP/1.1[0m" 404 -
+2025-05-20 12:17:36,430 - 127.0.0.1 - - [20/May/2025 12:17:36] "[33mPOST /api/ai/summary HTTP/1.1[0m" 404 -
+2025-05-20 12:17:49,773 - 127.0.0.1 - - [20/May/2025 12:17:49] "[33mPOST /api/save-news HTTP/1.1[0m" 404 -
+2025-05-20 12:17:49,777 - 127.0.0.1 - - [20/May/2025 12:17:49] "[33mPOST /api/ai/summary HTTP/1.1[0m" 404 -
+2025-05-20 12:22:03,648 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 12:22:03,648 - [33mPress CTRL+C to quit[0m
+2025-05-20 12:22:03,650 -  * Restarting with stat
+2025-05-20 12:22:09,410 -  * Debugger is active!
+2025-05-20 12:22:09,411 -  * Debugger PIN: 617-682-219
+2025-05-20 12:22:43,912 - 127.0.0.1 - - [20/May/2025 12:22:43] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-20 12:22:44,233 - 127.0.0.1 - - [20/May/2025 12:22:44] "GET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1" 200 -
+2025-05-20 12:23:09,630 - 127.0.0.1 - - [20/May/2025 12:23:09] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-20 12:23:09,644 - 127.0.0.1 - - [20/May/2025 12:23:09] "GET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1" 200 -
+2025-05-20 12:23:14,419 - 127.0.0.1 - - [20/May/2025 12:23:14] "POST /api/reports/add-image-check HTTP/1.1" 200 -
+2025-05-20 12:23:27,909 - 127.0.0.1 - - [20/May/2025 12:23:27] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-20 12:23:28,252 - 127.0.0.1 - - [20/May/2025 12:23:28] "[36mGET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1[0m" 304 -
+2025-05-20 12:23:28,254 - 127.0.0.1 - - [20/May/2025 12:23:28] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-20 12:23:28,255 - 127.0.0.1 - - [20/May/2025 12:23:28] "GET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1" 200 -
+2025-05-20 12:23:28,261 - 127.0.0.1 - - [20/May/2025 12:23:28] "GET /uploads/actor_placeholder.jpg HTTP/1.1" 200 -
+2025-05-20 12:23:44,825 - 127.0.0.1 - - [20/May/2025 12:23:44] "[36mGET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1[0m" 304 -
+2025-05-20 12:27:58,233 - 127.0.0.1 - - [20/May/2025 12:27:58] "[33mPOST /api/ai/insights HTTP/1.1[0m" 404 -
+2025-05-20 12:28:55,295 - 127.0.0.1 - - [20/May/2025 12:28:55] "[33mPOST /api/ai/group-sentiment HTTP/1.1[0m" 404 -
+2025-05-20 12:31:46,868 - 127.0.0.1 - - [20/May/2025 12:31:46] "[33mPOST /api/ai/group-sentiment HTTP/1.1[0m" 404 -
+2025-05-20 12:33:26,373 - 127.0.0.1 - - [20/May/2025 12:33:26] "[33mGET /api/twitter/search?q=Israel HTTP/1.1[0m" 404 -
+2025-05-20 12:35:22,070 - 127.0.0.1 - - [20/May/2025 12:35:22] "[33mGET /api/twitter/search?q=Israel HTTP/1.1[0m" 404 -
+2025-05-20 12:35:28,338 - 127.0.0.1 - - [20/May/2025 12:35:28] "[33mGET /api/twitter/search?q=Israel HTTP/1.1[0m" 404 -
+2025-05-20 12:35:44,056 - 127.0.0.1 - - [20/May/2025 12:35:44] "[33mGET /api/narratives HTTP/1.1[0m" 404 -
+2025-05-20 12:36:31,608 - 127.0.0.1 - - [20/May/2025 12:36:31] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-20 12:36:31,937 - 127.0.0.1 - - [20/May/2025 12:36:31] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-20 12:36:31,938 - 127.0.0.1 - - [20/May/2025 12:36:31] "[36mGET /uploads/actor_placeholder.jpg HTTP/1.1[0m" 304 -
+2025-05-20 12:36:31,940 - 127.0.0.1 - - [20/May/2025 12:36:31] "[36mGET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1[0m" 304 -
+2025-05-20 12:36:31,941 - 127.0.0.1 - - [20/May/2025 12:36:31] "[36mGET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1[0m" 304 -
+2025-05-20 12:36:33,747 - 127.0.0.1 - - [20/May/2025 12:36:33] "[36mGET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1[0m" 304 -
+2025-05-20 12:36:42,848 - 127.0.0.1 - - [20/May/2025 12:36:42] "[33mGET /api/narratives HTTP/1.1[0m" 404 -
+2025-05-20 12:37:34,219 - 127.0.0.1 - - [20/May/2025 12:37:34] "[33mPOST /api/ai/sector-overview HTTP/1.1[0m" 404 -
+2025-05-20 12:37:40,770 - 127.0.0.1 - - [20/May/2025 12:37:40] "[33mPOST /api/ai/sector-overview HTTP/1.1[0m" 404 -
+2025-05-20 12:40:08,119 - 127.0.0.1 - - [20/May/2025 12:40:08] "[33mPOST /api/ai/group-sentiment HTTP/1.1[0m" 404 -
+2025-05-20 21:37:59,869 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 21:37:59,870 - [33mPress CTRL+C to quit[0m
+2025-05-20 21:37:59,870 -  * Restarting with stat
+2025-05-20 21:38:05,243 -  * Debugger is active!
+2025-05-20 21:38:05,244 -  * Debugger PIN: 617-682-219
+2025-05-20 21:41:00,495 - 127.0.0.1 - - [20/May/2025 21:41:00] "POST /api/media/check-authenticity HTTP/1.1" 200 -
+2025-05-20 21:41:00,829 - 127.0.0.1 - - [20/May/2025 21:41:00] "GET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1" 200 -
+2025-05-20 21:41:07,358 - 127.0.0.1 - - [20/May/2025 21:41:07] "POST /api/reports/add-image-check HTTP/1.1" 200 -
+2025-05-20 21:41:26,684 - 127.0.0.1 - - [20/May/2025 21:41:26] "GET /api/reports/view HTTP/1.1" 200 -
+2025-05-20 21:41:26,719 - 127.0.0.1 - - [20/May/2025 21:41:26] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-20 21:41:27,044 - 127.0.0.1 - - [20/May/2025 21:41:27] "GET /uploads/þþChatGPT%20Image%20May%209,%202025,%2012_24_38%20PM%20-%20òåú÷.png HTTP/1.1" 200 -
+2025-05-20 21:41:27,046 - 127.0.0.1 - - [20/May/2025 21:41:27] "GET /uploads/öéìåí%20îñê%202025-05-19%20223954.png HTTP/1.1" 200 -
+2025-05-20 21:41:27,050 - 127.0.0.1 - - [20/May/2025 21:41:27] "GET /uploads/actor_placeholder.jpg HTTP/1.1" 200 -
+2025-05-20 21:41:51,058 - 127.0.0.1 - - [20/May/2025 21:41:51] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-20 21:44:15,093 - 127.0.0.1 - - [20/May/2025 21:44:15] "[36mGET /uploads/WhatsApp%20Image%202025-05-19%20at%2011.20.35.jpeg HTTP/1.1[0m" 304 -
+2025-05-20 21:44:54,066 - 127.0.0.1 - - [20/May/2025 21:44:54] "[33mGET /api/twitter/search?q=Israel HTTP/1.1[0m" 404 -
+2025-05-20 21:45:29,298 - 127.0.0.1 - - [20/May/2025 21:45:29] "[33mGET /api/twitter/search?q=Israel HTTP/1.1[0m" 404 -
+2025-05-20 21:46:17,415 - 127.0.0.1 - - [20/May/2025 21:46:17] "[33mGET /api/narratives HTTP/1.1[0m" 404 -
+2025-05-20 21:47:03,880 - 127.0.0.1 - - [20/May/2025 21:47:03] "[33mPOST /api/save-news HTTP/1.1[0m" 404 -
+2025-05-20 21:47:03,886 - 127.0.0.1 - - [20/May/2025 21:47:03] "[33mPOST /api/ai/summary HTTP/1.1[0m" 404 -
+2025-05-20 21:47:15,438 - 127.0.0.1 - - [20/May/2025 21:47:15] "[33mPOST /api/save-news HTTP/1.1[0m" 404 -
+2025-05-20 21:47:15,451 - 127.0.0.1 - - [20/May/2025 21:47:15] "[33mPOST /api/ai/summary HTTP/1.1[0m" 404 -
+2025-05-21 09:19:56,098 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 09:19:56,098 - [33mPress CTRL+C to quit[0m
+2025-05-21 09:19:56,099 -  * Restarting with stat
+2025-05-21 09:20:01,751 -  * Debugger is active!
+2025-05-21 09:20:01,751 -  * Debugger PIN: 617-682-219
+2025-05-21 09:42:41,589 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-21 09:42:42,189 -  * Restarting with stat
+2025-05-21 09:43:01,214 -  * Debugger is active!
+2025-05-21 09:43:01,215 -  * Debugger PIN: 617-682-219
+2025-05-21 09:46:43,849 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 09:46:43,849 - [33mPress CTRL+C to quit[0m
+2025-05-21 09:46:43,850 -  * Restarting with stat
+2025-05-21 09:46:49,413 -  * Debugger is active!
+2025-05-21 09:46:49,413 -  * Debugger PIN: 617-682-219
+2025-05-21 09:51:16,627 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-21 09:51:17,325 -  * Restarting with stat
+2025-05-21 09:51:23,057 -  * Debugger is active!
+2025-05-21 09:51:23,058 -  * Debugger PIN: 617-682-219
+2025-05-21 09:51:54,718 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 09:51:54,718 - [33mPress CTRL+C to quit[0m
+2025-05-21 09:51:54,719 -  * Restarting with stat
+2025-05-21 09:52:00,240 -  * Debugger is active!
+2025-05-21 09:52:00,241 -  * Debugger PIN: 617-682-219
+2025-05-21 10:08:13,141 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-21 10:08:13,781 -  * Restarting with stat
+2025-05-21 10:08:19,860 -  * Debugger is active!
+2025-05-21 10:08:19,861 -  * Debugger PIN: 617-682-219
+2025-05-21 10:08:51,895 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.12:5000
+2025-05-21 10:08:51,895 - [33mPress CTRL+C to quit[0m
+2025-05-21 10:08:51,895 -  * Restarting with stat
+2025-05-21 10:08:57,268 -  * Debugger is active!
+2025-05-21 10:08:57,269 -  * Debugger PIN: 617-682-219
+2025-05-21 23:53:41,930 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-21 23:53:41,931 - [33mPress CTRL+C to quit[0m
+2025-05-21 23:53:41,931 -  * Restarting with stat
+2025-05-21 23:53:47,340 -  * Debugger is active!
+2025-05-21 23:53:47,342 -  * Debugger PIN: 617-682-219
+2025-05-22 11:07:12,126 - 127.0.0.1 - - [22/May/2025 11:07:12] "[33mGET /api/company/undefined HTTP/1.1[0m" 404 -
+2025-05-22 11:09:17,123 - 127.0.0.1 - - [22/May/2025 11:09:17] "[33mGET /api/company/undefined HTTP/1.1[0m" 404 -
+2025-05-22 11:11:38,748 - 127.0.0.1 - - [22/May/2025 11:11:38] "[33mGET /api/company/undefined HTTP/1.1[0m" 404 -
+2025-05-22 11:12:51,676 - 127.0.0.1 - - [22/May/2025 11:12:51] "[33mGET /api/company/secureai HTTP/1.1[0m" 404 -
+2025-05-22 11:13:02,128 - 127.0.0.1 - - [22/May/2025 11:13:02] "[33mGET /api/company/secureai HTTP/1.1[0m" 404 -
+2025-05-22 11:13:06,106 - 127.0.0.1 - - [22/May/2025 11:13:06] "[33mGET /api/company/secureai HTTP/1.1[0m" 404 -
+2025-05-22 11:13:13,850 - 127.0.0.1 - - [22/May/2025 11:13:13] "[33mGET /api/company/finlytics HTTP/1.1[0m" 404 -
+2025-05-22 11:13:44,088 - 127.0.0.1 - - [22/May/2025 11:13:44] "[33mGET /api/company/undefined HTTP/1.1[0m" 404 -
+2025-05-22 11:13:48,151 - 127.0.0.1 - - [22/May/2025 11:13:48] "[33mGET /api/company/undefined HTTP/1.1[0m" 404 -
+2025-05-22 11:14:08,691 - 127.0.0.1 - - [22/May/2025 11:14:08] "[33mGET /api/company/undefined HTTP/1.1[0m" 404 -
+2025-05-22 11:17:17,149 - 127.0.0.1 - - [22/May/2025 11:17:17] "[33mGET /api/company/secureai HTTP/1.1[0m" 404 -
+2025-05-22 11:53:28,606 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\company_api.py', reloading
+2025-05-22 11:53:29,230 -  * Restarting with stat
+2025-05-22 11:53:48,594 -  * Debugger is active!
+2025-05-22 11:53:48,595 -  * Debugger PIN: 617-682-219
+2025-05-22 13:42:21,476 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 13:42:21,476 - [33mPress CTRL+C to quit[0m
+2025-05-22 13:42:21,476 -  * Restarting with stat
+2025-05-22 13:42:27,203 -  * Debugger is active!
+2025-05-22 13:42:27,204 -  * Debugger PIN: 617-682-219
+2025-05-22 13:42:38,645 - 127.0.0.1 - - [22/May/2025 13:42:38] "[33mGET /api/ai/insight?name=Tesla HTTP/1.1[0m" 404 -
+2025-05-22 13:42:42,497 - 127.0.0.1 - - [22/May/2025 13:42:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 13:43:24,576 - 127.0.0.1 - - [22/May/2025 13:43:24] "[33mGET /api/ai/insight?name=Tesla HTTP/1.1[0m" 404 -
+2025-05-22 13:43:30,699 - 127.0.0.1 - - [22/May/2025 13:43:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 13:46:56,889 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\ai_insights_api.py', reloading
+2025-05-22 13:46:57,514 -  * Restarting with stat
+2025-05-22 13:47:03,455 -  * Debugger is active!
+2025-05-22 13:47:03,456 -  * Debugger PIN: 617-682-219
+2025-05-22 13:47:13,741 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 13:47:13,741 - [33mPress CTRL+C to quit[0m
+2025-05-22 13:47:13,742 -  * Restarting with stat
+2025-05-22 13:47:19,270 -  * Debugger is active!
+2025-05-22 13:47:19,272 -  * Debugger PIN: 617-682-219
+2025-05-22 13:47:42,484 - 127.0.0.1 - - [22/May/2025 13:47:42] "GET /api/ai/insight?name=Tesla HTTP/1.1" 200 -
+2025-05-22 13:47:42,496 - 127.0.0.1 - - [22/May/2025 13:47:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 13:57:10,166 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\company_api.py', reloading
+2025-05-22 13:57:10,779 -  * Restarting with stat
+2025-05-22 13:57:16,417 -  * Debugger is active!
+2025-05-22 13:57:16,418 -  * Debugger PIN: 617-682-219
+2025-05-22 13:57:22,614 - 127.0.0.1 - - [22/May/2025 13:57:22] "[33mGET /api/company/search?q=Tesla HTTP/1.1[0m" 404 -
+2025-05-22 13:57:34,021 - 127.0.0.1 - - [22/May/2025 13:57:34] "[33mGET /api/company/5299003LJZ3MQ58AGG53 HTTP/1.1[0m" 404 -
+2025-05-22 13:57:37,022 - 127.0.0.1 - - [22/May/2025 13:57:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 13:58:01,967 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 13:58:01,967 - [33mPress CTRL+C to quit[0m
+2025-05-22 13:58:01,968 -  * Restarting with stat
+2025-05-22 13:58:07,793 -  * Debugger is active!
+2025-05-22 13:58:07,794 -  * Debugger PIN: 617-682-219
+2025-05-22 13:58:07,809 - 127.0.0.1 - - [22/May/2025 13:58:07] "[33mGET /api/company/search?q=Tesla HTTP/1.1[0m" 404 -
+2025-05-22 13:58:10,976 - 127.0.0.1 - - [22/May/2025 13:58:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 13:58:20,971 - 127.0.0.1 - - [22/May/2025 13:58:20] "[33mGET /api/company/5299003LJZ3MQ58AGG53 HTTP/1.1[0m" 404 -
+2025-05-22 14:00:05,113 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\company_api.py', reloading
+2025-05-22 14:00:05,716 -  * Restarting with stat
+2025-05-22 14:00:11,319 -  * Debugger is active!
+2025-05-22 14:00:11,319 -  * Debugger PIN: 617-682-219
+2025-05-22 14:01:46,500 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 14:01:46,500 - [33mPress CTRL+C to quit[0m
+2025-05-22 14:01:46,501 -  * Restarting with stat
+2025-05-22 14:01:52,133 -  * Debugger is active!
+2025-05-22 14:01:52,134 -  * Debugger PIN: 617-682-219
+2025-05-22 14:01:52,641 - 127.0.0.1 - - [22/May/2025 14:01:52] "[33mGET /api/company/search?q=Tesla HTTP/1.1[0m" 404 -
+2025-05-22 15:48:47,356 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 15:48:47,357 - [33mPress CTRL+C to quit[0m
+2025-05-22 15:48:47,357 -  * Restarting with stat
+2025-05-22 15:48:52,861 -  * Debugger is active!
+2025-05-22 15:48:52,862 -  * Debugger PIN: 617-682-219
+2025-05-22 15:55:46,927 - 127.0.0.1 - - [22/May/2025 15:55:46] "[33mGET /api/company/secureai HTTP/1.1[0m" 404 -
+2025-05-22 16:41:49,624 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-22 16:41:50,238 -  * Restarting with stat
+2025-05-22 16:42:09,019 -  * Debugger is active!
+2025-05-22 16:42:09,020 -  * Debugger PIN: 617-682-219
+2025-05-22 16:43:48,812 - 127.0.0.1 - - [22/May/2025 16:43:48] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 16:43:57,219 - 127.0.0.1 - - [22/May/2025 16:43:57] "GET /api/shodan/domain/google.com HTTP/1.1" 200 -
+2025-05-22 16:44:04,358 - 127.0.0.1 - - [22/May/2025 16:44:04] "GET /api/shodan/org/Google HTTP/1.1" 200 -
+2025-05-22 16:44:19,366 - 127.0.0.1 - - [22/May/2025 16:44:19] "GET /api/shodan/org/Google HTTP/1.1" 200 -
+2025-05-22 16:44:21,700 - 127.0.0.1 - - [22/May/2025 16:44:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 16:50:36,192 - 127.0.0.1 - - [22/May/2025 16:50:36] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 17:10:05,791 - 127.0.0.1 - - [22/May/2025 17:10:05] "[33mGET /api/twitter/search?q=secureai HTTP/1.1[0m" 404 -
+2025-05-22 17:18:59,155 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\shodan_ai_api.py', reloading
+2025-05-22 17:18:59,767 -  * Restarting with stat
+2025-05-22 17:19:05,471 -  * Debugger is active!
+2025-05-22 17:19:05,472 -  * Debugger PIN: 617-682-219
+2025-05-22 17:19:43,659 - 127.0.0.1 - - [22/May/2025 17:19:43] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:19:49,806 - 127.0.0.1 - - [22/May/2025 17:19:49] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:21:23,957 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\shodan_ai_api.py', reloading
+2025-05-22 17:21:24,554 -  * Restarting with stat
+2025-05-22 17:21:30,167 -  * Debugger is active!
+2025-05-22 17:21:30,168 -  * Debugger PIN: 617-682-219
+2025-05-22 17:21:37,100 - 127.0.0.1 - - [22/May/2025 17:21:37] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:22:04,875 - 127.0.0.1 - - [22/May/2025 17:22:04] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:25:27,155 - 127.0.0.1 - - [22/May/2025 17:25:27] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:27:16,539 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 17:27:16,540 - [33mPress CTRL+C to quit[0m
+2025-05-22 17:27:16,540 -  * Restarting with stat
+2025-05-22 17:27:22,153 -  * Debugger is active!
+2025-05-22 17:27:22,154 -  * Debugger PIN: 617-682-219
+2025-05-22 17:27:26,402 - 127.0.0.1 - - [22/May/2025 17:27:26] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:41:52,257 - 127.0.0.1 - - [22/May/2025 17:41:52] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:49:58,662 - 127.0.0.1 - - [22/May/2025 17:49:58] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:50:30,002 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 17:50:30,002 - [33mPress CTRL+C to quit[0m
+2025-05-22 17:50:30,003 -  * Restarting with stat
+2025-05-22 17:50:35,666 -  * Debugger is active!
+2025-05-22 17:50:35,667 -  * Debugger PIN: 617-682-219
+2025-05-22 17:50:44,166 - 127.0.0.1 - - [22/May/2025 17:50:44] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:53:28,921 - 127.0.0.1 - - [22/May/2025 17:53:28] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:54:17,867 - 127.0.0.1 - - [22/May/2025 17:54:17] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 17:58:45,346 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-22 17:58:45,959 -  * Restarting with stat
+2025-05-22 17:58:51,776 -  * Debugger is active!
+2025-05-22 17:58:51,777 -  * Debugger PIN: 617-682-219
+2025-05-22 17:59:02,053 - 127.0.0.1 - - [22/May/2025 17:59:02] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:04:22,949 - 127.0.0.1 - - [22/May/2025 18:04:22] "[33mGET /api/shodan?q=netflix.com&type=domain HTTP/1.1[0m" 404 -
+2025-05-22 18:04:57,015 - 127.0.0.1 - - [22/May/2025 18:04:57] "[33mGET /api/shodan?q=zoom.us&type=domain HTTP/1.1[0m" 404 -
+2025-05-22 18:11:51,758 - 127.0.0.1 - - [22/May/2025 18:11:51] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:12:14,127 - 127.0.0.1 - - [22/May/2025 18:12:14] "[33mGET /api/shodan?q=zoom.us&type=domain HTTP/1.1[0m" 404 -
+2025-05-22 18:12:54,072 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 18:12:54,072 - [33mPress CTRL+C to quit[0m
+2025-05-22 18:12:54,072 -  * Restarting with stat
+2025-05-22 18:12:59,746 -  * Debugger is active!
+2025-05-22 18:12:59,747 -  * Debugger PIN: 617-682-219
+2025-05-22 18:13:06,299 - 127.0.0.1 - - [22/May/2025 18:13:06] "[33mGET /api/shodan?q=zoom.us&type=domain HTTP/1.1[0m" 404 -
+2025-05-22 18:14:29,485 - 127.0.0.1 - - [22/May/2025 18:14:29] "[33mGET /api/shodan?q=zoom.us&type=domain HTTP/1.1[0m" 404 -
+2025-05-22 18:14:36,977 - 127.0.0.1 - - [22/May/2025 18:14:36] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:18:13,901 - 127.0.0.1 - - [22/May/2025 18:18:13] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:18:40,259 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 18:18:40,259 - [33mPress CTRL+C to quit[0m
+2025-05-22 18:18:40,260 -  * Restarting with stat
+2025-05-22 18:18:46,025 -  * Debugger is active!
+2025-05-22 18:18:46,026 -  * Debugger PIN: 617-682-219
+2025-05-22 18:18:55,627 - 127.0.0.1 - - [22/May/2025 18:18:55] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:20:02,351 - 127.0.0.1 - - [22/May/2025 18:20:02] "[33mPOST /api/ai/insights HTTP/1.1[0m" 404 -
+2025-05-22 18:21:15,537 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 18:21:15,537 - [33mPress CTRL+C to quit[0m
+2025-05-22 18:21:15,538 -  * Restarting with stat
+2025-05-22 18:21:20,910 -  * Debugger is active!
+2025-05-22 18:21:20,912 -  * Debugger PIN: 617-682-219
+2025-05-22 18:22:23,746 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 18:22:23,746 - [33mPress CTRL+C to quit[0m
+2025-05-22 18:22:23,747 -  * Restarting with stat
+2025-05-22 18:22:29,589 -  * Debugger is active!
+2025-05-22 18:22:29,590 -  * Debugger PIN: 617-682-219
+2025-05-22 18:22:57,394 - 127.0.0.1 - - [22/May/2025 18:22:57] "[33mGET /api/shodan?q=zoom.us&type=domain HTTP/1.1[0m" 404 -
+2025-05-22 18:23:30,249 - 127.0.0.1 - - [22/May/2025 18:23:30] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:24:01,494 - 127.0.0.1 - - [22/May/2025 18:24:01] "[33mGET /api/shodan?q=Google%20&type=org HTTP/1.1[0m" 404 -
+2025-05-22 18:31:06,993 - 127.0.0.1 - - [22/May/2025 18:31:06] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:35:48,554 - 127.0.0.1 - - [22/May/2025 18:35:48] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:38:37,423 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-22 18:38:38,054 -  * Restarting with stat
+2025-05-22 18:38:43,645 -  * Debugger is active!
+2025-05-22 18:38:43,646 -  * Debugger PIN: 617-682-219
+2025-05-22 18:39:21,856 - 127.0.0.1 - - [22/May/2025 18:39:21] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 18:48:31,551 - 127.0.0.1 - - [22/May/2025 18:48:31] "[33mGET /api/shodan/ip/8.8.8.8 HTTP/1.1[0m" 404 -
+2025-05-22 18:50:50,175 - 127.0.0.1 - - [22/May/2025 18:50:50] "[33mGET /api/shodan/ip/8.8.8.8 HTTP/1.1[0m" 404 -
+2025-05-22 18:50:53,536 - 127.0.0.1 - - [22/May/2025 18:50:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 18:54:01,236 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\shodan_api.py', reloading
+2025-05-22 18:54:01,856 -  * Restarting with stat
+2025-05-22 18:54:07,459 -  * Debugger is active!
+2025-05-22 18:54:07,460 -  * Debugger PIN: 617-682-219
+2025-05-22 18:54:23,364 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 18:54:23,364 - [33mPress CTRL+C to quit[0m
+2025-05-22 18:54:23,365 -  * Restarting with stat
+2025-05-22 18:54:29,188 -  * Debugger is active!
+2025-05-22 18:54:29,188 -  * Debugger PIN: 617-682-219
+2025-05-22 18:54:33,829 - 127.0.0.1 - - [22/May/2025 18:54:33] "[33mGET /api/shodan?q=8.8.8.8&type=ip HTTP/1.1[0m" 404 -
+2025-05-22 19:00:53,082 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\shodan_api.py', reloading
+2025-05-22 19:00:53,701 -  * Restarting with stat
+2025-05-22 19:00:59,380 -  * Debugger is active!
+2025-05-22 19:00:59,381 -  * Debugger PIN: 617-682-219
+2025-05-22 19:01:16,725 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-22 19:01:17,338 -  * Restarting with stat
+2025-05-22 19:01:22,978 -  * Debugger is active!
+2025-05-22 19:01:22,979 -  * Debugger PIN: 617-682-219
+2025-05-22 19:01:45,113 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 19:01:45,113 - [33mPress CTRL+C to quit[0m
+2025-05-22 19:01:45,114 -  * Restarting with stat
+2025-05-22 19:01:50,889 -  * Debugger is active!
+2025-05-22 19:01:50,890 -  * Debugger PIN: 617-682-219
+2025-05-22 19:01:59,794 - 127.0.0.1 - - [22/May/2025 19:01:59] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 19:02:07,772 - 127.0.0.1 - - [22/May/2025 19:02:07] "GET /api/shodan/domain/google.com HTTP/1.1" 200 -
+2025-05-22 19:02:13,810 - 127.0.0.1 - - [22/May/2025 19:02:13] "GET /api/shodan/org/Google HTTP/1.1" 200 -
+2025-05-22 19:19:39,166 - 127.0.0.1 - - [22/May/2025 19:19:39] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 19:19:39,194 - 127.0.0.1 - - [22/May/2025 19:19:39] "[33mPOST /api/ai/shodan-insight HTTP/1.1[0m" 404 -
+2025-05-22 19:20:39,716 - 127.0.0.1 - - [22/May/2025 19:20:39] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 19:20:39,723 - 127.0.0.1 - - [22/May/2025 19:20:39] "[33mPOST /api/ai/shodan-insight HTTP/1.1[0m" 404 -
+2025-05-22 19:23:31,599 - 127.0.0.1 - - [22/May/2025 19:23:31] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 19:23:31,607 - 127.0.0.1 - - [22/May/2025 19:23:31] "[33mPOST /api/ai/shodan-insight HTTP/1.1[0m" 404 -
+2025-05-22 19:23:33,283 - 127.0.0.1 - - [22/May/2025 19:23:33] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 19:23:33,288 - 127.0.0.1 - - [22/May/2025 19:23:33] "[33mPOST /api/ai/shodan-insight HTTP/1.1[0m" 404 -
+2025-05-22 19:28:47,966 - 127.0.0.1 - - [22/May/2025 19:28:47] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 19:28:47,974 - 127.0.0.1 - - [22/May/2025 19:28:47] "[33mPOST /api/ai/shodan-insight HTTP/1.1[0m" 404 -
+2025-05-22 19:30:19,511 - 127.0.0.1 - - [22/May/2025 19:30:19] "GET /api/shodan/domain/zoom.us HTTP/1.1" 200 -
+2025-05-22 19:30:19,517 - 127.0.0.1 - - [22/May/2025 19:30:19] "[33mPOST /api/ai/shodan-insight HTTP/1.1[0m" 404 -
+2025-05-22 19:40:26,913 -  * Detected change in 'C:\\Users\\User\\my_project\\main.py', reloading
+2025-05-22 19:40:27,526 -  * Restarting with stat
+2025-05-22 19:57:38,968 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 19:57:38,968 - [33mPress CTRL+C to quit[0m
+2025-05-22 19:57:38,968 -  * Restarting with stat
+2025-05-22 19:57:44,690 -  * Debugger is active!
+2025-05-22 19:57:44,691 -  * Debugger PIN: 617-682-219
+2025-05-22 19:58:05,869 - 127.0.0.1 - - [22/May/2025 19:58:05] "[33mGET /api/shodan/ip/8.8.8.8 HTTP/1.1[0m" 404 -
+2025-05-22 20:00:58,826 -  * Detected change in 'C:\\Users\\User\\my_project\\aegix_project\\api\\shodan_api.py', reloading
+2025-05-22 20:00:59,447 -  * Restarting with stat
+2025-05-22 20:01:05,089 -  * Debugger is active!
+2025-05-22 20:01:05,090 -  * Debugger PIN: 617-682-219
+2025-05-22 20:01:45,033 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.7.8:5000
+2025-05-22 20:01:45,033 - [33mPress CTRL+C to quit[0m
+2025-05-22 20:01:45,034 -  * Restarting with stat
+2025-05-22 20:01:50,711 -  * Debugger is active!
+2025-05-22 20:01:50,712 -  * Debugger PIN: 617-682-219
+2025-05-22 20:01:50,793 - 127.0.0.1 - - [22/May/2025 20:01:50] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-22 20:01:54,509 - 127.0.0.1 - - [22/May/2025 20:01:54] "POST /api/ai/shodan-insight HTTP/1.1" 200 -
+2025-05-23 00:48:48,037 - 127.0.0.1 - - [23/May/2025 00:48:48] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-23 00:48:51,003 - 127.0.0.1 - - [23/May/2025 00:48:51] "POST /api/ai/shodan-insight HTTP/1.1" 200 -
+2025-05-23 01:12:47,221 - 127.0.0.1 - - [23/May/2025 01:12:47] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-23 01:12:49,944 - 127.0.0.1 - - [23/May/2025 01:12:49] "POST /api/ai/shodan-insight HTTP/1.1" 200 -
+2025-05-23 01:13:06,207 - 127.0.0.1 - - [23/May/2025 01:13:06] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-23 01:13:08,949 - 127.0.0.1 - - [23/May/2025 01:13:08] "POST /api/ai/shodan-insight HTTP/1.1" 200 -
+2025-05-23 01:15:43,263 - 127.0.0.1 - - [23/May/2025 01:15:43] "[35m[1mGET /api/shodan/org/AMDOCS HTTP/1.1[0m" 500 -
+2025-05-23 01:15:49,682 - 127.0.0.1 - - [23/May/2025 01:15:49] "[35m[1mGET /api/shodan/domain/AMDOCS HTTP/1.1[0m" 500 -
+2025-05-23 01:15:56,169 - 127.0.0.1 - - [23/May/2025 01:15:56] "[35m[1mGET /api/shodan/domain/AMDOCS HTTP/1.1[0m" 500 -
+2025-05-23 01:16:07,129 - 127.0.0.1 - - [23/May/2025 01:16:07] "GET /api/shodan/ip/8.8.8.8 HTTP/1.1" 200 -
+2025-05-23 01:16:10,903 - 127.0.0.1 - - [23/May/2025 01:16:10] "POST /api/ai/shodan-insight HTTP/1.1" 200 -

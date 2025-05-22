@@ -1,0 +1,35 @@
+{
+  "id": "secureai",
+  "name": "SecureAI Ltd.",
+  "sector": "Cybersecurity",
+  "description": "חברה מתמחה בזיהוי פרצות בזמן אמת באמצעות בינה מלאכותית.",
+  "founded": "2019",
+  "headquarters": "תל אביב, ישראל",
+  "legal_exposure": {
+    "status": "תביעה פתוחה",
+    "details": "חשד לשימוש בקוד קנייני של חברה מתחרה."
+  },
+  "customer_sentiment": {
+    "summary": "חיובי ברובו",
+    "keywords": ["AI", "Detection", "Realtime", "UI Slow"]
+  },
+  "employees": [
+    {
+      "name": "Dana Levi",
+      "role": "CTO",
+      "risk_level": "Low",
+      "location": "Israel"
+    },
+    {
+      "name": "Avi Cohen",
+      "role": "VP Sales",
+      "risk_level": "Medium",
+      "location": "UK"
+    }
+  ],
+  "main_competitors": ["CyberX", "DefenSec"],
+  "regulatory_status": "GDPR מאושר, SOC 2 בהמתנה",
+  "score": 78,
+  "risk_index": 2,
+  "ai_summary": "החברה מביאה חדשנות בתחום אבטחת המידע, אך נדרשת בקרה על קניין רוחני."
+}

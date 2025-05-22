@@ -78,6 +78,8 @@ import GeoRiskHeatmap from "@/components/CompanyAnalysis/GeoRiskHeatmap";
 import AIEmployeeInsights from "@/components/CompanyAnalysis/AIEmployeeInsights";
 import EmployeeNarrativeMonitor from "@/components/CompanyAnalysis/EmployeeNarrativeMonitor";
 import InvestigationCenter from "./components/CompanyAnalysis/InvestigationCenter";
+import CompanySearchPanel from "./components/CompanyAnalysis/CompanySearchPanel";
+import ShodanIntelDashboard from "./components/NetworkIntel/ShodanIntelDashboard";
 
 // Geo Intelligence
 import GeoIntelReportView from "./components/Geo/GeoIntelReportView";
@@ -165,13 +167,13 @@ function App() {
         <Route path="/admin/avatar-suite/archive" element={<ProtectedRoute><MainLayout><PostArchive /></MainLayout></ProtectedRoute>} />
 
         {/* Company */}
-        <Route path="/company-profile" element={<ProtectedRoute><MainLayout><CompanyProfileView /></MainLayout></ProtectedRoute>} />
+        <Route path="/company-profile/:companyId" element={<ProtectedRoute><CompanyProfileView /></ProtectedRoute>} />
         <Route path="/competitor-map" element={<ProtectedRoute><MainLayout><CompetitorMapPanel /></MainLayout></ProtectedRoute>} />
         <Route path="/employee-risk" element={<ProtectedRoute><MainLayout><EmployeeRiskScanner /></MainLayout></ProtectedRoute>} />
         <Route path="/export-report" element={<ProtectedRoute><MainLayout><ExportReport /></MainLayout></ProtectedRoute>} />
         <Route path="/legal-risk" element={<ProtectedRoute><MainLayout><LegalExposurePanel /></MainLayout></ProtectedRoute>} />
         <Route path="/narrative-monitor" element={<ProtectedRoute><MainLayout><NarrativeMonitor /></MainLayout></ProtectedRoute>} />
-        <Route path="/product-sentiment" element={<ProtectedRoute><MainLayout><ProductSentimentDashboard /></MainLayout></ProtectedRoute>} />
+        <Route path="/product-sentiment/:companyId" element={<ProtectedRoute><MainLayout><ProductSentimentDashboard /></MainLayout></ProtectedRoute>} />
         <Route path="/employee/:id" element={<EmployeeProfileView />} />
         <Route path="/company-risk-overview" element={<ProtectedRoute><CompanyRiskOverview /></ProtectedRoute>} />
         <Route path="/global-network" element={<ProtectedRoute><GlobalEmployeeNetwork /></ProtectedRoute>} />
@@ -179,6 +181,8 @@ function App() {
         <Route path="/ai-employee-insights" element={<ProtectedRoute><AIEmployeeInsights /></ProtectedRoute>} />
         <Route path="/narrative-monitor-employee" element={<ProtectedRoute><EmployeeNarrativeMonitor /></ProtectedRoute>} />
         <Route path="/investigation" element={<ProtectedRoute><MainLayout><InvestigationCenter /></MainLayout></ProtectedRoute>} />
+        <Route path="/company-search" element={<ProtectedRoute><CompanySearchPanel /></ProtectedRoute>} />
+        <Route path="/shodan-intel" element={<ProtectedRoute><MainLayout><ShodanIntelDashboard /></MainLayout></ProtectedRoute>} />
 
         {/* Geo Intelligence */}
         <Route path="/geo-report" element={<ProtectedRoute><MainLayout><GeoIntelReportView /></MainLayout></ProtectedRoute>} />

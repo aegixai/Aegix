@@ -1,0 +1,44 @@
+[
+  {
+    "id": "secureai",
+    "name": "SecureAI Ltd.",
+    "sector": "Cybersecurity",
+    "description": "חברה מתמחה בזיהוי פרצות בזמן אמת באמצעות בינה מלאכותית.",
+    "legal_exposure": "תביעה פתוחה על שימוש בקוד קנייני של צד שלישי.",
+    "customer_sentiment": "חיובי בעיקר, אך יש תלונות על שירות תמיכה איטי.",
+    "employees": [
+      { "name": "Dana Levi", "role": "CTO", "risk_level": "Low" },
+      { "name": "Avi Cohen", "role": "VP Sales", "risk_level": "Medium" }
+    ],
+    "main_competitors": ["CyberX", "DefenSec"],
+    "regulatory_status": "אישור תקן GDPR אך טרם אושר SOC 2"
+  },
+  {
+    "id": "finlytics",
+    "name": "FinLytics",
+    "sector": "Fintech",
+    "description": "ניתוח חריגות פיננסיות ודירוג סיכונים במוסדות אשראי.",
+    "legal_exposure": "רגולציה חדשה באירופה עשויה להשפיע על פעילות.",
+    "customer_sentiment": "ביקורות מהללות את הפשטות והדוחות, אך UI לא עדכני.",
+    "employees": [
+      { "name": "Nir Azulay", "role": "Chief Risk Officer", "risk_level": "High" },
+      { "name": "Tali Ben-Simon", "role": "Data Scientist", "risk_level": "Low" }
+    ],
+    "main_competitors": ["RiskIQ", "AlphaGuard"],
+    "regulatory_status": "עומדים בדרישות Basel III ו־AMLD6"
+  },
+  {
+    "id": "mediview",
+    "name": "MediView Health",
+    "sector": "HealthTech",
+    "description": "אלגוריתם זיהוי מחלות מ־MRI על בסיס CNN ו־GPT-4 Vision.",
+    "legal_exposure": "אין תביעות פעילות, אך רגולציית FDA עדיין לא התקבלה.",
+    "customer_sentiment": "חיובי מאוד בקרב רופאים וחוקרים.",
+    "employees": [
+      { "name": "Dr. Yossi Harari", "role": "Founder & AI Researcher", "risk_level": "Low" },
+      { "name": "Einat Koren", "role": "Clinical Advisor", "risk_level": "Medium" }
+    ],
+    "main_competitors": ["HealthScanAI", "DeepMedix"],
+    "regulatory_status": "בשלבי ניסוי קליני, מצפים לאישור FDA Q4"
+  }
+]
