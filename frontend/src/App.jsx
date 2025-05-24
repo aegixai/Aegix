@@ -105,6 +105,10 @@ import ImageAuthenticityChecker from "@/components/MediaAnalysis/ImageAuthentici
 import AdvancedImageAnalysis from "@/components/MediaAnalysis/AdvancedImageAnalysis";
 import IntelReportView from "@/components/Reports/IntelReportView";
 import ReverseImageSearchPanel from "@/components/MediaAnalysis/ReverseImageSearchPanel";
+import CompanyDueDiligenceCenter from "@/components/CompanyAnalysis/CompanyDueDiligenceCenter";
+
+// Social Intelligence
+import TwitterRiskDashboard from "./components/Social/TwitterRiskDashboard";
 
 function App() {
   return (
@@ -183,6 +187,7 @@ function App() {
         <Route path="/investigation" element={<ProtectedRoute><MainLayout><InvestigationCenter /></MainLayout></ProtectedRoute>} />
         <Route path="/company-search" element={<ProtectedRoute><CompanySearchPanel /></ProtectedRoute>} />
         <Route path="/shodan-intel" element={<ProtectedRoute><MainLayout><ShodanIntelDashboard /></MainLayout></ProtectedRoute>} />
+        <Route path="/company-due-diligence" element={<ProtectedRoute><CompanyDueDiligenceCenter /></ProtectedRoute>} />
 
         {/* Geo Intelligence */}
         <Route path="/geo-report" element={<ProtectedRoute><MainLayout><GeoIntelReportView /></MainLayout></ProtectedRoute>} />
@@ -211,6 +216,9 @@ function App() {
 
         {/* NEW – Sector Overview */}
         <Route path="/sector-overview" element={<ProtectedRoute><MainLayout><SectorOverviewPanel /></MainLayout></ProtectedRoute>} />
+        
+        {/* Social Media Risk */}
+        <Route path="/twitter-risk-dashboard" element={<ProtectedRoute><MainLayout><TwitterRiskDashboard /></MainLayout></ProtectedRoute>} />
 
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />

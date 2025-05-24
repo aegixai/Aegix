@@ -39,6 +39,9 @@ from aegix_project.api.ai_insights_api import ai_insights_api
 from aegix_project.core.api.media_auth_ai import media_auth_api
 from aegix_project.core.api.media_image_classifier_api import media_image_classifier_api
 from aegix_project.core.api.intel_report_api import intel_report_api
+from aegix_project.api.save_news_api import save_news_api  
+from aegix_project.api.summary_api import summary_api
+from aegix_project.api.twitter_search_api import twitter_search_api
 
 # 🧠 Flask App Setup
 app = Flask(__name__)
@@ -63,12 +66,17 @@ app.register_blueprint(default_query_api)
 app.register_blueprint(search_query_api)
 app.register_blueprint(broadcast_api)
 app.register_blueprint(fileintel_api)
-app.register_blueprint(ai_insights_api)
 app.register_blueprint(media_auth_api)
 app.register_blueprint(media_image_classifier_api)
 app.register_blueprint(intel_report_api)
 app.register_blueprint(shodan_api, url_prefix="/api/shodan")
 app.register_blueprint(shodan_ai_api)
+app.register_blueprint(save_news_api)
+app.register_blueprint(summary_api)
+app.register_blueprint(twitter_search_api)
+
+# ✅ Fixed: AI API with proper prefix
+app.register_blueprint(ai_insights_api, url_prefix="/api/ai")
 
 # 📁 Serve uploaded images
 @app.route("/uploads/<filename>")

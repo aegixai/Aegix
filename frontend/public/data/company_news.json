@@ -1,5 +1,206 @@
 {
   "query": "placeholder",
   "last_fetched": "2025-05-15T12:00:00Z",
-  "articles": []
+  "articles": [],
+  "Acme Corp": {
+    "query": "Acme Corp",
+    "last_fetched": "2025-05-24T09:21:28.118Z",
+    "articles": [
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Katie Canales,Paige Leskin,Rebecca Aydin,Lakshmi Varanasi",
+        "title": "The life and rise of Jony Ive, the legendary Apple designer who has joined OpenAI",
+        "description": "Jony Ive's career was mainly at Apple, designing products like the iPhone and Mac. Now he'll work at OpenAI, which bought his AI device startup io.",
+        "url": "https://www.businessinsider.com/sir-jony-ive",
+        "urlToImage": "https://i.insider.com/682e61acac40ae2b0c9eb9ee?width=1200&format=jpeg",
+        "publishedAt": "2025-05-22T15:24:36Z",
+        "content": "Jony Ive's career is taking a new turn, as he teams up with Sam Altman at OpenAI.Jerod Harris/Getty Images for Vox Media\r\n<ul><li>Former Apple design chief Jony Ive and his design firm LoveFrom will … [+6982 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Share Market Highlights 21 May 2025: Sensex, Nifty break 3-day losing streak as banking stocks shine, Asian markets hold steady",
+        "description": "Stock Market Highlights 21 May 2025: Benchmark stock indices Sensex and Nifty rebounded sharply on Wednesday, snapping their three-day falling streak on the back of buying in blue-chips HDFC Bank and ICICI Bank and a firm trend in Asian peers. The 30-share BS…",
+        "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-21-may-2025/article69598216.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/l3hjli/article69598256.ece/alternates/LANDSCAPE_1200/IMG_STOCK_MARKETS_DOWN_2_1_IODFL7QQ.jpg",
+        "publishedAt": "2025-05-21T01:15:16Z",
+        "content": "Stock Market today | Share Market Highlights - Find here all the highlights related to Sensex, Nifty, BSE, NSE, share prices and Indian stock markets for 21 May 2025 <li></li>\r\n16:11 | May 21, 2025St… [+68025 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Q4 Results Highlights: Hindalco, Dixon post Q4 gains; Zydus nets ₹1,171 cr; Mobikwik loss widens; Honda India hits upper circuit; Pfizer rallies; Gland Pharma Q4 dips 3%, Whirlpool profit up 50%",
+        "description": "Q4 Results 20th May, 2025 updates: Find all the latest Q4 results 2025 updates for Hindalco Industries, Torrent Pharmaceuticals, Gland Pharma, Solar Industries India, Dixon Technologies, Whirlpool of India, Zydus Lifesciences, JK Tyre & Industries Ltd, Max He…",
+        "url": "https://www.thehindubusinessline.com/markets/stock-markets/q4-results-highlights-hindalco-torrent-pharmaceuticals-gland-pharma-solar-industries-dixon-max-healthcare-whirlpool-zydus-lifesciences-bel-mobikwik-kvb-acme-solar-20-may-2025/article69596153.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/n7d032/article69596172.ece/alternates/LANDSCAPE_1200/Q4%20results%20live.jpeg",
+        "publishedAt": "2025-05-20T04:01:30Z",
+        "content": "<li></li>\r\n19:13 | May 20, 2025Q4 results live: JK Tyre Q4 net profit falls 42.5% to Rs 98.66 cr\r\nJK Tyre &amp; Industries Ltd on Tuesday reported a 42.5 per cent decline in consolidated net profit a… [+36574 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Share Market Highlights: Sensex sheds 872 points, Nifty ends below 24,700; Auto, FMCG stocks hit hard",
+        "description": "Sensex, Nifty updates on 20 May 2025: Benchmark indices Sensex and Nifty tumbled over 1% on Tuesday, weighed down by losses in blue-chip stocks like HDFC Bank, Reliance Industries, and ICICI Bank. The BSE Sensex dropped 872.98 points to close at 81,186.44, wh…",
+        "url": "https://www.thehindubusinessline.com/markets/stock-market-highlights-20-may-2025/article69594411.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/myimyz/article69594424.ece/alternates/LANDSCAPE_1200/stock%20market%20graph.jpg",
+        "publishedAt": "2025-05-20T01:18:41Z",
+        "content": "Stock Market on 20 May 2025 | Share Market Updates - Find here all the updates related to Sensex, Nifty, BSE, NSE, share prices and Indian stock markets.<li></li>\r\n16:14 | May 20, 2025Currency market… [+70677 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Madhu Balaji",
+        "title": "Sensex, Nifty 50 dip, BEL, Delhivery, Divi’s Lab, Zen Tech, Protean & more in action",
+        "description": "Nifty 50 stocks fluctuate, with Bajaj Auto leading gainers and Eternal, Infosys, Tata Consumer Products declining. Market remains volatile.",
+        "url": "https://www.thehindubusinessline.com/markets/stock-markets/sensex-nifty-50-dip-bel-delhivery-divis-lab-zen-tech-protean-more-in-action/article69593187.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/5lcpzt/article69587676.ece/alternates/LANDSCAPE_1200/IMG_digital_finance_2_1_L7ECL0G6.jpg",
+        "publishedAt": "2025-05-19T07:56:38Z",
+        "content": "Shares of Bajaj Auto, Shriram Finance, Eicher Motors, Hero Motocorp and Power Grid Corporation led the gainers among the Nifty 50 stocks, while Eternal, Infosys, Tata Consumer Products, TCS and Grasi… [+2132 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Q4 Results Highlights: KVB, NLC post Q4 gains; DLF net up 39%, Delhivery & BLS rally; Zen Tech hits upper circuit, Heritage Foods falls 5%",
+        "description": "Q4 Results 19th May, 2025 Highlights: Find all the latest Q4 results 2025 updates for Power Grid Corporation of India, Bharat Electronics, DLF, Honda India Power Products, PI Industries, NLC India, Karur Vysya Bank, Petronet LNG, ACME Solar Holdings, Gujarat …",
+        "url": "https://www.thehindubusinessline.com/markets/q4-results-highlights-dlf-bel-sun-pharma-power-grid-honda-india-karur-vysya-bank-nlc-india-acme-solar-holdings-hyundai-hal-delhivery-bhel-reliance-19-may-2025/article69590204.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/c3521c/article69590214.ece/alternates/LANDSCAPE_1200/IMG_PO11_Analysis_2_1_QHCD0J8P.jpg",
+        "publishedAt": "2025-05-19T03:44:21Z",
+        "content": "<li></li>\r\n21:19 | May 19, 2025Power Grid Q4 results updates: Profit almost flat at Rs 4,143 cr\r\n) State-owned Power Grid Corporation of India on Monday reported an almost flat consolidated net profi… [+27925 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Q4 Results Live: BEL, DLF, Sun Pharma, Power Grid, Honda India, Karur Vysya Bank, NLC India, ACME Solar Holdings to announce Q4 results",
+        "description": "Q4 Results 19th May, 2025 live updates: Find all the latest Q4 results 2025 updates for Power Grid Corporation of India, Bharat Electronics, DLF, Honda India Power Products, PI Industries, NLC India, Karur Vysya Bank, Petronet LNG, ACME Solar Holdings, Gujara…",
+        "url": "https://www.thehindubusinessline.com/markets/q4-results-live-updates-dlf-bel-sun-pharma-power-grid-honda-india-karur-vysya-bank-nlc-india-acme-solar-holdings-hyundai-hal-delhivery-bhel-reliance-19-may-2025/article69590204.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/c3521c/article69590214.ece/alternates/LANDSCAPE_1200/IMG_PO11_Analysis_2_1_QHCD0J8P.jpg",
+        "publishedAt": "2025-05-19T03:44:21Z",
+        "content": "Q4 Results May 19, 2025 live updates: Find all the latest Q4 results 2025 updates for Power Grid Corporation of India,Bharat Electronics, DLF, Honda India Power Products, PI Industries, NLC India, Ka… [+678 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "KS Badri Narayanan",
+        "title": "Buzzing stocks: Dr Reddy’s Lab, BEL, Lumax Auto, KSB, RPP Infra, LNG-related companies, KEC International, Brigade, Sapphire Media, Newton Software",
+        "description": "Key Results:  BEL, DLF, PI Inds, Petronet LNG, NLC India, Gujarat Gas, IRB Infrastructure, New India Assurance, Power Grid, Redington, Pfizer, Karur Vysya Bank, Jupiter Wagons, DOMS Inds, Acme Solar,  GMR Power, CMS Info, Dodla Diary, SPARC",
+        "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-dr-reddys-lab-bel-lumax-auto-ksb-rpp-infra-lng-related-companies-kec-international-brigade-sapphire-media-newton-software/article69592523.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/dyjonl/article69589858.ece/alternates/LANDSCAPE_1200/IMG_iStock-1481095189_2_1_FFC78MNC.jpg",
+        "publishedAt": "2025-05-19T02:26:35Z",
+        "content": "Dr Reddys Laboratories has said that the United States Food &amp; Drug Administration (USFDA) has completed a GMP inspection at its API Middleburgh facility in New York. The inspection was conducted … [+7002 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Amazon.com"
+        },
+        "author": "Tyler Holmes",
+        "title": "SMS Onboarding for SaaS, ISV, and Multi-Tenant Applications with AWS End User Messaging",
+        "description": "Introduction SMS messaging continues to be one of the most reliable and effective communication channels. However, for Software as a Service (SaaS) companies, Independent Software Vendors (ISVs), and multi-tenant solution providers looking to incorporate SMS …",
+        "url": "https://aws.amazon.com/blogs/messaging-and-targeting/sms-onboarding-for-saas-isv-and-multi-tenant-applications-with-aws-end-user-messaging/",
+        "urlToImage": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png",
+        "publishedAt": "2025-05-13T22:23:24Z",
+        "content": "Introduction\r\nSMS messaging continues to be one of the most reliable and effective communication channels. However, for Software as a Service (SaaS) companies, Independent Software Vendors (ISVs), an… [+16266 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Stock Market Highlights 12 May 2025: Sensex, Nifty soar on India-Pakistan ceasefire agreement, US-China trade talks",
+        "description": "Sensex, Nifty, Share Prices: The markets witnessed an unprecedented rally on Monday, with benchmark indices recording their biggest single-day gains in nearly four years, driven by a series of positive geopolitical developments and global trade optimism. The …",
+        "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-12-may-2025/article69563844.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/b1knns/article69563843.ece/alternates/LANDSCAPE_1200/IMG_BL1404_Corp_Buzz1_2_1_23E86LN6.jpg",
+        "publishedAt": "2025-05-12T01:17:07Z",
+        "content": "Stock Market Today | Share Market Updates - Find here all the updates related to Sensex, Nifty, BSE, NSE, share prices and Indian stock markets for 12 May 2025.<li></li>\r\n17:07 | May 12, 2025Stock ma… [+48737 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BleepingComputer"
+        },
+        "author": "",
+        "title": "Unable to Remediate Trojan:Win32/Nibtse.c!tsk with Windows Defender",
+        "description": "Unable to Remediate Trojan:Win32/Nibtse.c!tsk with Windows Defender - posted in Virus, Trojan, Spyware, and Malware Removal Help: I ran a scan with Windows Defender after Chrome froze during browsing, and it detected two trojans.  The one quarantined (Trojan:…",
+        "url": "https://www.bleepingcomputer.com/forums/t/808098/unable-to-remediate-trojanwin32nibtsectsk-with-windows-defender/",
+        "urlToImage": "https://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png",
+        "publishedAt": "2025-05-02T14:05:08Z",
+        "content": "I ran a scan with Windows Defender after Chrome froze during browsing, and it detected two trojans.  The one quarantined (Trojan:HTML/Phish!AMTB) may be a false positive, but the other (Trojan:Win32/… [+58799 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "KS Badri Narayanan, Team BL",
+        "title": "Share Market Highlights 2 May 2025: Profit booking leads to negative bias in Indian markets; Nifty below 24,300",
+        "description": "Sensex, Nifty, Share Price LIVE:Indian stock markets reversed their early gains on Friday, turning negative by mid-session due to profit booking and sector-specific concerns. After starting strong, with the Sensex surging over 800 points and Nifty gaining ove…",
+        "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-2-may-2025/article69521503.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/4x82in/article69521531.ece/alternates/LANDSCAPE_1200/IMG_Businessman_using_la_2_1_L6DBU8AR.jpg",
+        "publishedAt": "2025-05-02T01:10:25Z",
+        "content": "Stock Market Highlights | Share Market Highlights 2 May 2025: Find here all the highlights related to Sensex, Nifty, BSE, NSE, share prices and Indian stock markets for 2 May 2025.<li></li>\r\n17:04 | … [+68655 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Freerepublic.com"
+        },
+        "author": "Nypost",
+        "title": "Albertsons supermarket chain warns suppliers company is ‘not accepting cost increases’ over Trump’s tariffs",
+        "description": "The buck stops with them. North America’s second-largest supermarket chain is warning its suppliers that it won’t allow price hikes due to President Trump’s tariff spree. Albertsons, which operates over 2,200 grocery stores — including Balducci’s, Kings and A…",
+        "url": "https://freerepublic.com/focus/f-news/4313655/posts",
+        "urlToImage": null,
+        "publishedAt": "2025-04-27T23:06:55Z",
+        "content": "Skip to comments.\r\nAlbertsons supermarket chain warns suppliers company is not accepting cost increases over Trumps tariffsNypost ^\r\n | April 27th 2025\r\n | Ryan King\r\nPosted on 04/27/2025 4:06:55 PM … [+5598 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "KS Badri Narayanan",
+        "title": "Stocks in focus: Wipro, TCS, Concor, BHEL, PowerGrid on April 25",
+        "description": "Results calendar: Reliance Industries, Maruti Suzuki India, RBL Bank, Tata Technologies, L&T Finance, Cholamandalam Investment and Finance, DCB Bank and others",
+        "url": "https://www.thehindubusinessline.com/markets/stocks-in-focus-wipro-tcs-concor-bhel-powergrid-on-april-25/article69489277.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/9p7elo/article69486950.ece/alternates/LANDSCAPE_1200/IMG_PO29_planning_2_1_S2DCTEIE.jpg",
+        "publishedAt": "2025-04-25T02:43:40Z",
+        "content": "Tata Consultancy Services (TCS) on Thursday announced a line-up of three India-focused offerings including an indigenous sovereign cloud for government and public sector enterprises, engineered to ke… [+5366 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Forbes"
+        },
+        "author": "Expert Panel®, Forbes Councils Member, \n Expert Panel®, Forbes Councils Member\n https://www.forbes.com/councils/forbestechcouncil/people/expertpanel/",
+        "title": "20 Tech Experts On How To Boost Operational Resilience",
+        "description": "Developing solid strategies to not only recover from disruption, but also to run smoothly in the midst of it, requires careful review of all elements of an organization.",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2025/04/23/20-tech-experts-on-how-to-boost-operational-resilience/",
+        "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6808ede12f67ff26be33584d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "publishedAt": "2025-04-23T17:15:38Z",
+        "content": "getty\r\nManaging risk and boosting resilience is an important initiative for organizationsparticularly so for the finance, healthcare and logistics sectors. From cyberattacks to global market shifts, … [+10061 chars]"
+      }
+    ]
+  }
 }

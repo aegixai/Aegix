@@ -1,0 +1,72 @@
+[
+  {
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "title": "UK AI White Paper",
+    "source": "UK Government",
+    "date": "2025-04-20"
+  },
+  {
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "title": "EU Digital Markets Act",
+    "source": "European Commission",
+    "date": "2025-04-22"
+  },
+  {
+    "lat": 38.9072,
+    "lon": -77.0369,
+    "title": "US SEC Crypto Guidelines",
+    "source": "US SEC",
+    "date": "2025-04-25"
+  },
+  {
+    "lat": 35.6895,
+    "lon": 139.6917,
+    "title": "Japan Financial AI Law",
+    "source": "FSA Japan",
+    "date": "2025-04-24"
+  },
+  {
+    "lat": 55.7558,
+    "lon": 37.6173,
+    "title": "Russia Data Sovereignty Policy",
+    "source": "Duma",
+    "date": "2025-04-23"
+  },
+  {
+    "lat": 52.52,
+    "lon": 13.405,
+    "title": "Germany Cloud Regulation Act",
+    "source": "Bundestag",
+    "date": "2025-04-22"
+  },
+  {
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "title": "Australia Privacy Bill Update",
+    "source": "AUS Gov",
+    "date": "2025-04-26"
+  },
+  {
+    "lat": 40.7128,
+    "lon": -74.006,
+    "title": "NY Fintech Oversight Draft",
+    "source": "NY Regulator",
+    "date": "2025-04-27"
+  },
+  {
+    "lat": 28.6139,
+    "lon": 77.209,
+    "title": "India Digital Personal Data Act",
+    "source": "Indian Parliament",
+    "date": "2025-04-28"
+  },
+  {
+    "lat": -23.5505,
+    "lon": -46.6333,
+    "title": "Brazil LGPD Amendments",
+    "source": "Brazilian Congress",
+    "date": "2025-04-29"
+  }
+]

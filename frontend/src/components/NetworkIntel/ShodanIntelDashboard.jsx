@@ -1,3 +1,4 @@
+// 📁 ShodanIntelDashboard.jsx
 import React, { useState } from "react";
 import axios from "axios";
 import { Bar } from "react-chartjs-2";
@@ -103,7 +104,7 @@ const ShodanIntelDashboard = () => {
               <h2 className="text-lg font-semibold text-green-400 mb-2">
                 🤖 AI Summary
               </h2>
-              <p className="text-white">{aiSummary}</p>
+              <p className="text-white whitespace-pre-line">{aiSummary}</p>
             </CardContent>
           </Card>
 

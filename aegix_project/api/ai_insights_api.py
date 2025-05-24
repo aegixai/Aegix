@@ -104,3 +104,41 @@ def group_compare_insight():
         print("❌ GPT ERROR:", gpt_err)
         traceback.print_exc()
         return jsonify({"error": f"GPT Error: {str(gpt_err)}"}), 500
+# ✅ AI Insight for results (used by AIInsightsPanel.jsx)
+@ai_insights_api.route("/api/ai/insights", methods=["POST"])
+def ai_insights():
+    try:
+        items = request.json.get("results", [])
+        if not items:
+            return jsonify({"error": "No input data"}), 400
+
+        prompt = "You are an OSINT analyst. Analyze the following signals and generate:\n- Trends\n- Anomalies\n- Recommended actions\n\n"
+        prompt += "\n".join([f"- {item['source']}: {item['value']}" for item in items])
+
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                { "role": "system", "content": "You are an expert OSINT intelligence analyst." },
+                { "role": "user", "content": prompt }
+            ],
+            max_tokens=400
+        )
+
+        response_text = completion.choices[0].message.content
+
+        # פיצול לפסקאות
+        def extract_section(label):
+            for section in response_text.split("\n\n"):
+                if section.lower().startswith(label.lower()):
+                    return [line.strip("-• ") for line in section.split("\n")[1:] if line.strip()]
+            return []
+
+        return jsonify({
+            "trends": extract_section("Trends"),
+            "anomalies": extract_section("Anomalies"),
+            "recommendations": extract_section("Recommended actions")
+        })
+
+    except Exception as e:
+        print("❌ AI Insight Error:", e)
+        return jsonify({"error": str(e)}), 500
